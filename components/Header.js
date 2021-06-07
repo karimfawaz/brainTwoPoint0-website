@@ -1,7 +1,11 @@
+import headerStyles from '../styles/Header.module.css'
+
+
 const Header = () => {
     return (
-        <div>
-            <h1> Brain 2.0</h1>
+        <div className={headerStyles.header}>
+            <h1 className={headerStyles.companyName}> Brain 2.0</h1>
+
         </div>
     )
 }

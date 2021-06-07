@@ -3,16 +3,17 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Skills from '../components/Skills'
 
+
 export default function Home() {
   return (
-    <div >
+    <div  >
       <Head>
         <title>Brain 2.0</title>
       </Head>
 
-      <Header/>
+      <Header />
 
-      <Skills/>
+      <Skills />
 
 
     </div>
