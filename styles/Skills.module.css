@@ -1,3 +1,4 @@
+
 .skillsSection {
     background-color: #52616b;
 }
@@ -6,6 +7,8 @@
     display: flex;
     padding: 3rem;
     overflow-x: scroll;
+    background-color: #52616b;
+    justify-content: center;
 }
 
 .cardList::-webkit-scrollbar {
@@ -24,8 +27,8 @@
 }
 
 .card {
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 275px;
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;
@@ -71,4 +74,11 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+
+
+
+.skillImg{
+    align-self: center;
 }
