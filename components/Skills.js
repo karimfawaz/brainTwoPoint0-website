@@ -25,6 +25,11 @@ const skillsList = [
 
     }, 
     {
+        name: "Unity 2D & C#",
+        description: "HTML, CSS, and JavaScript are the fundamentals of web development. Brain 2.0 makes use of these languages to create static web pages and landing pages.",
+        img: "unitycsharp.png"
+    },
+    {
         name: "HTML, CSS, JavaScript",
         description: "HTML, CSS, and JavaScript are the fundamentals of web development. Brain 2.0 makes use of these languages to create static web pages and landing pages.",
         img: "cssjshtml.png"
