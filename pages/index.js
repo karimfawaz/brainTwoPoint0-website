@@ -13,7 +13,7 @@ export default function Home() {
 
       <Header />
 
-      <Skills />
+      <Skills/>
 
 
     </div>
