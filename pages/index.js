@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import Nav from '../components/Nav'
 import Header from '../components/Header'
 import Skills from '../components/Skills'
 
@@ -7,6 +8,8 @@ import Skills from '../components/Skills'
 export default function Home() {
   return (
     <div  >
+
+      <Nav/>
       <Head>
         <title>Brain 2.0</title>
       </Head>

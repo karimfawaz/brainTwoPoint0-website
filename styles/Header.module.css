@@ -9,9 +9,47 @@ c9d6df
 */
 
 .header {
-    background-color: #1e2022;
+    /* background-color: #1e2022; */
+    background-color: white;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nameSlogan{
+    display: flex;
+    flex-direction: column;
+}
+.companyName {
+    color: black;
+    font-size: 7rem;
+}
+.companySlogan {
+    color: black;
+    font-size: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type 4s steps(16) infinite;
+    border-right: 4px solid black;
+    width: 16ch;
 }
 
-.companyName {
-    color: white;
+.companyLogo {
+    /* background-color: white;
+    padding: 10px;
+    border-radius: 50%; */
+    height: 256px;
+    width: 256px;
+}
+
+@keyframes type {
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width:16ch ;
+    }
+    
 }
