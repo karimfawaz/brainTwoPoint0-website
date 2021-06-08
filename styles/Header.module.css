@@ -31,25 +31,29 @@ c9d6df
     font-size: 2rem;
     overflow: hidden;
     white-space: nowrap;
-    animation: type 4s steps(16) infinite;
+    animation: type 6s steps(40) infinite;
+    animation-delay: 2s;
     border-right: 4px solid black;
-    width: 16ch;
+    /* width: 40ch; */
 }
 
 .companyLogo {
     /* background-color: white;
     padding: 10px;
     border-radius: 50%; */
-    height: 256px;
-    width: 256px;
+    /* height: 256px;
+    width: 256px; */
+    height: 15rem;
+    width: 15rem;
 }
 
 @keyframes type {
     0%{
-        width: 0ch;
+        width: 0%;
     }
-    100%{
-        width:16ch ;
+    
+    50%{
+        width:100% ;
     }
     
 }
