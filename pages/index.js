@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Nav from '../components/Nav'
 import Header from '../components/Header'
 import Skills from '../components/Skills'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
 
       <Skills/>
 
+      <Footer/>
 
     </div>
   )
