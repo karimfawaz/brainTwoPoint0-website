@@ -12,4 +12,19 @@
     height: 4rem;
     width: 4rem;
     color: white;
+    animation: spinningSVG 5s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@keyframes spinningSVG {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

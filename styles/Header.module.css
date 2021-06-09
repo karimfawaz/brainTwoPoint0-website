@@ -21,6 +21,7 @@ c9d6df
 .nameSlogan{
     display: flex;
     flex-direction: column;
+    margin-left: 2rem;
 }
 .companyName {
     color: black;
