@@ -34,7 +34,7 @@ c9d6df
     animation: type 6s steps(40) infinite;
     animation-delay: 2s;
     border-right: 4px solid black;
-    /* width: 40ch; */
+     width: 32ch; 
 }
 
 .companyLogo {
