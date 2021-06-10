@@ -1,5 +1,6 @@
 .skillsSection {
     background-color: #52616b;
+    padding: 2rem;
 }
 
 .cardList {
@@ -64,7 +65,6 @@
     text-decoration: none;
     color: inherit;
     border: 0;
-    
     cursor: pointer;
     color: white;
     text-align: center;
@@ -92,4 +92,12 @@
 .svgSkills {
     display: flex;
     justify-content: center;
+}
+
+.sectionTitle {
+   color: #1e2022;
+    border: 0.5rem dashed #1e2022;
+    width: 17rem;
+    text-align: center;
+
 }
