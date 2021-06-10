@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Nav from '../components/Nav'
 import Header from '../components/Header'
+import About from '../components/About'
 import Skills from '../components/Skills'
 import Footer from '../components/Footer'
 
@@ -10,16 +11,18 @@ export default function Home() {
   return (
     <div  >
 
-      <Nav/>
+      <Nav />
       <Head>
         <title>Brain 2.0</title>
       </Head>
 
       <Header />
 
-      <Skills/>
+      <About />
 
-      <Footer/>
+      <Skills />
+
+      <Footer />
 
     </div>
   )
