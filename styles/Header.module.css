@@ -21,8 +21,7 @@ c9d6df
 .nameSlogan{
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
-      
+    margin-left: 2rem;
 }
 .companyName {
     color: black;
@@ -37,6 +36,7 @@ c9d6df
     animation-delay: 2s;
     border-right: 4px solid black;
      width: 32ch; 
+     height: 3rem;
 }
 
 .companyLogo {
@@ -52,6 +52,7 @@ c9d6df
 @keyframes type {
     0%{
         width: 0%;
+        
     }
     
     50%{
