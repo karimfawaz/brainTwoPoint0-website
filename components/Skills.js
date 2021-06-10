@@ -18,7 +18,7 @@ const skillsList = [
     },
     {
         name: "React.js & Next.js",
-        description: "React and Next are two of the most widely used JavaScript libraries/frameworks. Brain 2.0 mainly uses React.js to build Web-Applications whilst we use Next.js for projects that prioritize Search Engine Optimization",
+        description: "React and Next are two of the most widely used JavaScript libraries/frameworks. Brain 2.0 mainly uses React.js to build Web-Applications whilst we use Next.js for projects that prioritize Search Engine Optimization.",
         img: "nextreact.png",
 
     },
