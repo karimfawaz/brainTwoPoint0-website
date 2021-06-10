@@ -3,7 +3,7 @@ import cardStyles from '../styles/Skills.module.css'
 const skillsList = [
     {
         name: "Flutter",
-        description: "Flutter is a framework used to create cross-platform mobile applications. Brain 2.0 uses Flutter to create Minimum Viable Products for companies with upcoming deadlines to create a working product in record time",
+        description: "Flutter is a framework used to create cross-platform mobile applications. Brain 2.0 uses Flutter to create Minimum Viable Products for companies with upcoming deadlines to create a working product in record time.",
         img: "flutter.png"
 
     },
@@ -11,11 +11,14 @@ const skillsList = [
 
     {
         name: "Java & Kotlin",
+        description: "Java and Kotlin are the languages use for Native Android application development. Brain 2.0 mainly uses Kotlin in Android Studio to build applications prioritising navive performance on devices.",
         img: "kotlinjava.png"
+
 
     },
     {
         name: "React.js & Next.js",
+        description: "React and Next are two of the most widely used JavaScript libraries/frameworks. Brain 2.0 mainly uses React.js to build Web-Applications whilst we use Next.js for projects that prioritize Search Engine Optimization",
         img: "nextreact.png",
 
     },
