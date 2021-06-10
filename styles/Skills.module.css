@@ -27,8 +27,8 @@
 }
 
 .card {
-    height: 23rem;
-    width: 14rem;
+    height: 18.5rem;
+    width: 12.5rem;
     min-width: 250px;
     padding: 1rem;
     border-radius: 16px;
@@ -52,7 +52,7 @@
 }
 
 .cardHeader p {
-    font-size: 14px;
+    font-size: .75rem;
     margin: 0 0 1rem;
     color: #c9d6df;
     margin-top: 0.5rem;
@@ -81,11 +81,13 @@
 
 .skillImg {
     align-self: center;
+    height: 8rem;
+    width: 8rem;
 }
 
 .svg {
-    height: 26rem;
-    width: 26rem;
+    height: 22rem;
+    width: 22rem;
     align-self: flex-end;
 }
 
@@ -95,9 +97,8 @@
 }
 
 .sectionTitle {
-   color: #1e2022;
+    color: #1e2022;
     border: 0.5rem dashed #1e2022;
     width: 17rem;
     text-align: center;
-
 }

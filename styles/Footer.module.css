@@ -17,6 +17,7 @@
     height: 5rem;
     width: 5rem;
     background: linear-gradient(45deg,#F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+    color: black;
     border-radius: 50%;
     padding: 0.75rem;
     display: block;
