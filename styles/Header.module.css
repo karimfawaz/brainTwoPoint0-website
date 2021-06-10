@@ -11,32 +11,38 @@ c9d6df
 .header {
     /* background-color: #1e2022; */
     background-color: white;
-
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.nameSlogan{
+
+.nameLogo {
     display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
+    justify-content: center;
 }
+
 .companyName {
     color: black;
-    font-size: 7rem;
+    font-size: 7.5rem;
+    text-align: center;
+    align-self: flex-end;
+    
+   
 }
+
 .companySlogan {
     color: black;
     font-size: 2rem;
     overflow: hidden;
     white-space: nowrap;
-    animation: type 6s steps(40) infinite;
+    animation: type 6s steps(32) infinite;
     animation-delay: 2s;
     border-right: 4px solid black;
-     width: 32ch; 
-     height: 3rem;
+    width: 32ch;
+    height: 3rem;
+    margin-top: 2rem;
 }
 
 .companyLogo {
@@ -50,13 +56,10 @@ c9d6df
 }
 
 @keyframes type {
-    0%{
-        width: 0%;
-        
+    0% {
+        width: 0ch;
     }
-    
-    50%{
-        width:100% ;
+    50% {
+        width: 32ch;
     }
-    
 }
