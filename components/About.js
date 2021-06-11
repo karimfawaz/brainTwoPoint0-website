@@ -1,7 +1,7 @@
 import aboutStyles from '../styles/About.module.css'
 const About = () => {
     return (
-        <section className={aboutStyles.about}>
+        <section className={aboutStyles.about} id="about">
             <h1 className={aboutStyles.sectionTitle}>About Us</h1>
             <div className={aboutStyles.svgText}>
                 <article className={aboutStyles.text}>

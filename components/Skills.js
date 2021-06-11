@@ -31,7 +31,7 @@ const skillsList = [
 ]
 const Skills = () => {
     return (
-        <div className={cardStyles.skillsSection}>
+        <div className={cardStyles.skillsSection} id="skills">
             <h1 className={cardStyles.sectionTitle}>What We Offer</h1>
             <div className={cardStyles.svgSkills}>
 
