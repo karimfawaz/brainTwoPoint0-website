@@ -1,7 +1,7 @@
-.about {
+ .about {
     background-color: #1e2022;
     padding: 2rem;
-    display: grid;
+    
     
 }
 
@@ -14,9 +14,11 @@
 }
 
 .svgText {
-    display: flex;
+    display: grid;
     justify-content:space-around ;
     padding: 2rem;
+    gap: 2rem;
+    grid-template-columns: 2fr 1fr;
 }
 
 .svg {
@@ -27,15 +29,12 @@
 }
 
 .text{
-    font-size: 1.1rem;
-    height: 20rem;
-    width: 40rem;
-    padding: 1rem;
-    border-right: 0.5rem dashed #c9d6df;
-    border-bottom: 0.5rem dashed #c9d6df;
-
-    /* background-color: #c9d6df; */
-    /* border-radius: 2rem; */
+    font-size: 1.1em;
+    height: 20em;
+    width: 40em;
+    padding: 1em;
+    border-right: 0.5em dashed #c9d6df;
+    border-bottom: 0.5em dashed #c9d6df;
     font-weight: bold;
     color: #c9d6df;
 }
@@ -44,4 +43,4 @@
     font-style: italic;
     font-size: 1.3rem;
     opacity: 0.7;
-}
+} 

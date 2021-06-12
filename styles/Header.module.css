@@ -1,35 +1,18 @@
-/* 
-COLORS:
-f0f5f9
-c9d6df
-52616b
-1e2022
-
-
-*/
-
 .header {
-    /* background-color: #1e2022; */
     background-color: white;
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.nameLogo {
-    display: flex;
+    display: grid;
+    grid-template-areas: "logo name" "logo slogan";
+    grid-template-columns: 1fr 2fr;
+    /* column-gap: 3rem; */
     justify-content: center;
 }
 
 .companyName {
     color: black;
     font-size: 7.5rem;
-    text-align: center;
+    grid-area: name;
     align-self: flex-end;
-    
-   
 }
 
 .companySlogan {
@@ -43,16 +26,14 @@ c9d6df
     width: 32ch;
     height: 3rem;
     margin-top: 2rem;
+    grid-area: slogan;
 }
 
 .companyLogo {
-    /* background-color: white;
-    padding: 10px;
-    border-radius: 50%; */
-    /* height: 256px;
-    width: 256px; */
     height: 15rem;
     width: 15rem;
+    justify-self: flex-end;
+    grid-area: logo;
 }
 
 @keyframes type {
@@ -61,5 +42,15 @@ c9d6df
     }
     50% {
         width: 32ch;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .companyName {
+        font-size: 5rem;
+    }
+    .companySlogan {
+        font-size: 1.5rem;
+        border-right: 2px solid black;
     }
 }

@@ -1,29 +1,38 @@
 .skillsSection {
     background-color: #52616b;
     padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.075fr 1fr;
+    grid-template-areas: 
+    "title title"
+    "svg skills";
+
+}
+
+.sectionTitle {
+    color: #1e2022;
+    border: 0.5rem dashed #1e2022;
+    width: 17rem;
+    text-align: center;
+    grid-area: title;
+}
+
+
+
+.svg {
+    height: 22rem;
+    width: 22rem;
+    align-self: flex-end;
+    margin: 2rem;
+    grid-area: svg;
 }
 
 .cardList {
     display: flex;
     padding: 3rem;
     overflow-x: visible;
-    background-color: #52616b;
-    /* justify-content: center; */
-}
-
-.cardList::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-
-.cardList::-webkit-scrollbar-thumb {
-    background: #1e2022;
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
-}
-
-.cardList::-webkit-scrollbar-track {
-    background-color: #1e2022;
+    grid-area: skills;
 }
 
 .card {
@@ -51,12 +60,10 @@
     margin-left: -130px;
 }
 
-.cardHeader p {
-    font-size: .75rem;
-    margin: 0 0 1rem;
-    color: #c9d6df;
-    margin-top: 0.5rem;
-    /* text-align: center; */
+.skillImg {
+    align-self: center;
+    height: 8rem;
+    width: 8rem;
 }
 
 .cardHeader h2 {
@@ -79,27 +86,33 @@
     background-clip: text;
 }
 
-.skillImg {
-    align-self: center;
-    height: 8rem;
-    width: 8rem;
+.cardHeader p {
+    font-size: .75rem;
+    margin: 0 0 1rem;
+    color: #c9d6df;
+    margin-top: 0.5rem;
 }
 
-.svg {
-    height: 22rem;
-    width: 22rem;
-    align-self: flex-end;
-    margin: 2rem;
+.cardList::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
 }
 
-.svgSkills {
-    display: flex;
-    justify-content: center;
+.cardList::-webkit-scrollbar-thumb {
+    background: #1e2022;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
 }
 
-.sectionTitle {
-    color: #1e2022;
-    border: 0.5rem dashed #1e2022;
-    width: 17rem;
-    text-align: center;
+.cardList::-webkit-scrollbar-track {
+    background-color: #1e2022;
+}
+
+@media only screen and (max-width:700px){
+
+
+    .skillsSection {
+        background-color: blue;
+        padding: 2rem;
+    }
 }
