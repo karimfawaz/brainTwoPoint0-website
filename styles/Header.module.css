@@ -52,6 +52,7 @@
         font-size: 1.2rem;
         border-right: 2px solid black;
         height: 2rem;
+        width: 32ch;
     }
     .header {
         grid-template-areas: "logo"" name" " slogan";
