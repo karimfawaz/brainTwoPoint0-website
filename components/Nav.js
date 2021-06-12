@@ -10,7 +10,7 @@ const Nav = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-70}
                 duration={1000}
             > About</Link>
 
@@ -19,7 +19,7 @@ const Nav = () => {
                 to="skills"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-70}
                 duration={1000}
             > Services</Link>
             
@@ -29,7 +29,7 @@ const Nav = () => {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-70}
                 duration={1000}
             > Projects</Link>
             <Link className={navStyles.navItem}
@@ -37,7 +37,7 @@ const Nav = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-70}
             duration={1000}
         > Contact</Link>
         </nav>

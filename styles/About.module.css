@@ -1,6 +1,8 @@
 .about {
     background-color: #1e2022;
     padding: 2rem;
+    display: grid;
+    
 }
 
 .sectionTitle {
@@ -8,6 +10,7 @@
     width: 17rem;
     text-align: center;
     color: #c9d6df;
+    grid-column: span 4;
 }
 
 .svgText {
