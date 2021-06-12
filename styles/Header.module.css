@@ -52,7 +52,7 @@
         font-size: 1.2rem;
         border-right: 2px solid black;
         height: 2rem;
-        width: 32ch;
+        animation: none;
     }
     .header {
         grid-template-areas: "logo"" name" " slogan";
@@ -68,4 +68,6 @@
     justify-self: center;
     grid-area: logo;
 }
+
+
 }
