@@ -50,9 +50,10 @@
     }
     .companySlogan {
         font-size: 1.2rem;
-        border-right: 2px solid black;
+        border-right: none;
         height: 2rem;
         animation: none;
+        
     }
     .header {
         grid-template-areas: "logo"" name" " slogan";
