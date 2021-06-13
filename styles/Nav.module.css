@@ -1,44 +1,48 @@
  .navBar {
-    background-color: #1e2022;
-    display: flex;
-    color: white;
-    justify-content: space-evenly;
-    align-items: center;
-   
-    padding: 1rem;
-  
-}
+     background-color: #1e2022;
+     display: flex;
+     color: white;
+     justify-content: space-evenly;
+     align-items: center;
+     height: 15vh;
+     padding: 1vh;
+ }
 
-.navItem{
-    color: white;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-.brain {
-    height: 4rem;
-    width: 4rem;
-    color: white;
-    animation: spinningSVG 5s;
-    animation-iteration-count: infinite;
-    z-index: 1;
-}
+ .navItem {
+     color: white;
+     font-weight: bold;
+     font-size: 4vh;
+ }
 
-@keyframes spinningSVG {
-    from {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(-45deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
- 
-@media only screen and (max-width:650px){
+ .brain {
+     width: 10vh;
+     color: white;
+     animation: spinningSVG 5s;
+     animation-iteration-count: infinite;
+     z-index: 1;
+ }
+
+ @keyframes spinningSVG {
+     from {
+         transform: rotate(0deg);
+     }
+     25% {
+         transform: rotate(-45deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }
+
+ @media only screen and (max-width:600px){
 
 
     .navItem{
-        font-size: 1em;
+        font-size: 4vw;
+    }
+
+    .brain {
+        width: 9vw;
+        
     }
 }
