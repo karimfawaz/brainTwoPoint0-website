@@ -4,16 +4,15 @@
     color: white;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 1.5rem;
+   
     padding: 1rem;
   
 }
 
-
-
 .navItem{
     color: white;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 .brain {
     height: 4rem;
@@ -39,8 +38,11 @@
 @media only screen and (max-width:650px){
 
 
-    .navBar {
-        display: none;
+     .navBar {
+        font-size: 1rem;
        
+    } 
+    .navItem{
+        font-size: 1rem;
     }
 }
