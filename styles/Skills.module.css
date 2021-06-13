@@ -1,13 +1,16 @@
 .skillsSection {
     background-color: #52616b;
     padding: 2rem;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.075fr 1fr;
     grid-template-areas: 
     "title title"
     "svg skills";
+    display: none;
+
+
 
 }
 

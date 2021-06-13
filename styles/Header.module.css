@@ -5,6 +5,7 @@
     grid-template-areas: "logo name" "logo slogan";
     grid-template-columns: 1fr 2fr;
     justify-content: center;
+    display: none;
 }
 
 .companyName {
