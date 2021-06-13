@@ -12,7 +12,7 @@
 .navItem{
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 .brain {
     height: 4rem;
@@ -38,11 +38,7 @@
 @media only screen and (max-width:650px){
 
 
-     .navBar {
-        font-size: 1rem;
-       
-    } 
     .navItem{
-        font-size: 1rem;
+        font-size: 1em;
     }
 }
