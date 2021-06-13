@@ -13,7 +13,7 @@
  .navItem {
      color: white;
      font-weight: bold;
-     font-size: 4vh;
+     font-size: 1.5em;
  }
 
  .brain {
@@ -39,7 +39,7 @@
 
  @media only screen and (max-width:600px) {
      .navItem {
-         font-size: 3.75vh;
+         font-size: 1.25em;
      }
    
  }
