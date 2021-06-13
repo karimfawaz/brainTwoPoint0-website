@@ -39,7 +39,7 @@
 
  @media only screen and (max-width:600px) {
      .navItem {
-         font-size: 4vw;
+         font-size: 3.75vh;
      }
    
  }
