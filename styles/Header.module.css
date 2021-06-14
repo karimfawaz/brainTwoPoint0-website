@@ -4,36 +4,43 @@
     display: grid;
     grid-template-areas: "logo name" "logo slogan";
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+  
     justify-content: center;
+    width: 100%;
+    
 
 }
 
 .companyName {
     color: black;
-    font-size: 7.5rem;
+    font-size: 13vw;
     grid-area: name;
-    align-self: flex-end;
+    align-self: flex-start;
+     height: 10vw;
 }
 
 .companySlogan {
     color: black;
-    font-size: 2rem;
+    font-size: 3vw;
     overflow: hidden;
     white-space: nowrap;
     animation: type 6s steps(32) infinite;
     animation-delay: 2s;
-    border-right: 4px solid black;
+    border-right: 2px solid black;
     width: 32ch;
-    height: 3rem;
-    margin-top: 2rem;
+    height: 4vw;
+    margin-top: 1vw;
     grid-area: slogan;
+    align-self: flex-start;
+  
 }
 
 .companyLogo {
-    /* height: 15rem; */
-    width: 40vh;
+    width: 22vw;
     justify-self: flex-end;
     grid-area: logo;
+    align-self: flex-start;
 }
 
 @keyframes type {
@@ -44,7 +51,7 @@
         width: 32ch;
     }
 }
-
+/* 
 @media only screen and (max-width:900px) {
     .companyName {
         font-size: 5rem;
@@ -72,4 +79,4 @@
 }
 
 
-}
+} */
