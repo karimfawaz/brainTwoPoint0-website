@@ -13,7 +13,7 @@
  }
 
  .container {
-     margin-top: 1rem;
+     margin-top: 1vw;
      display: flex;
      justify-content: space-around;
      align-items: flex-start;
@@ -24,8 +24,8 @@
      width: 57vw;
      height: 25vw;
      padding: 1vw;
-     border-right: 0.5em dashed #c9d6df;
-     border-bottom: 0.5em dashed #c9d6df;
+     border-right: 0.5vw dashed #c9d6df;
+     border-bottom: 0.5vw dashed #c9d6df;
      font-weight: bold;
      color: #c9d6df;
  }

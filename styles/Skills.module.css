@@ -1,78 +1,69 @@
 .skillsSection {
     background-color: #52616b;
-    padding: 2rem;
-    /* display: flex; */
-    flex-direction: column;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.075fr 1fr;
-    grid-template-areas: 
-    "title title"
-    "svg skills";
-    
-
-
-
+    padding: 2vw;
 }
 
 .sectionTitle {
-    color: #1e2022;
-    border: 0.5rem dashed #1e2022;
-    width: 17rem;
+    border: 0.5vw dashed #1e2022;
+    width: 20vw;
+    height: 3.5vw;
     text-align: center;
-    grid-area: title;
+    color: #1e2022;
+    font-size: 1.75vw;
 }
 
-
+.container {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
 
 .svg {
-    height: 22rem;
-    width: 22rem;
+    width: 25vw;
+    height: 25vw;
     align-self: flex-end;
-    margin: 2rem;
-    grid-area: svg;
 }
 
 .cardList {
     display: flex;
-    padding: 3rem;
     overflow-x: visible;
-    grid-area: skills;
 }
 
 .card {
-    height: 18.5rem;
-    width: 12.5rem;
-    min-width: 250px;
-    padding: 1rem;
+    height: 25vw;
+    width: 18vw;
+    padding: 1vw;
     border-radius: 16px;
     background: #1e2022;
-    box-shadow: -0.5rem 0 1rem #000;
+    box-shadow: -0.5vw 0 1vw #000;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     transition: .2s;
-    margin: 0;
+   
     scroll-snap-align: start;
     clear: both;
     position: relative;
 }
 
 .card:hover~.card {
-    transform: translateX(130px);
+    transform: translateX(13vw);
 }
 
 .card:not(:first-child) {
-    margin-left: -130px;
+    margin-left: -13vw;
 }
 
 .skillImg {
     align-self: center;
-    height: 8rem;
-    width: 8rem;
+    height: 10vw;
+    width: 10vw;
 }
 
 .cardHeader h2 {
-    font-size: 20px;
-    margin: .25rem 0 auto;
+    font-size: 1.3vw;
+    margin: .25vw 0 auto;
     text-decoration: none;
     color: inherit;
     border: 0;
@@ -82,19 +73,12 @@
     align-self: center;
 }
 
-.cardHeader h2:hover {
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
-    text-shadow: none;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
 
 .cardHeader p {
-    font-size: .75rem;
-    margin: 0 0 1rem;
+    font-size: 1vw;
+    margin: 0 0 1vw;
     color: #c9d6df;
-    margin-top: 0.5rem;
+    margin-top: 0.5vw;
 }
 
 .cardList::-webkit-scrollbar {
@@ -112,11 +96,70 @@
     background-color: #1e2022;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:650px) {
+    .sectionTitle {
+        width: 25vw;
+        height: 5vw;
+        font-size: 2.75vw;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .svg {
+        width: 40vw;
+        height: 40vw;
+        align-self: flex-end;
+        display: block;
+        margin: auto;
+        justify-self: flex-start;
+    }
+    .cardList {
+        display: grid;
+        gap: 3vw;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: auto;
+    }
+    .card {
+        height: 50vw;
+        width: 40vw;
+        padding: 1vw;
+        border-radius: 16px;
+        background: #1e2022;
+        box-shadow: -0.5vw 0 1vw #000;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    .card:hover~.card {
+        transform: none;
+    }
+    .card:not(:first-child) {
+        margin-left: unset;
+    }
+    .skillImg {
+        align-self: center;
+        height: 20vw;
+        width: 20vw;
+    }
+    .cardHeader h2 {
+        font-size: 3.5vw;
+        margin: .25vw 0 auto;
+        text-decoration: none;
+        color: inherit;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        text-align: center;
+        align-self: center;
+    }
 
-
-    .skillsSection {
-        background-color: blue;
-        padding: 2rem;
+    .cardHeader p {
+        font-size: 2vw;
+        margin: 0 0 1vw;
+        color: #c9d6df;
+        margin-top: 0.5vw;
+        text-align: center;
     }
 }
