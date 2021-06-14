@@ -1,25 +1,32 @@
  .about {
      background-color: #1e2022;
      padding: 2rem;
-     height: 150vw;
  }
 
  .sectionTitle {
      border: 0.5vw dashed #c9d6df;
      width: 20vw;
+     height: 3.5vw;
      text-align: center;
      color: #c9d6df;
      font-size: 1.75vw;
  }
 
+ .container {
+     margin-top: 1rem;
+     display: flex;
+     justify-content: space-around;
+ }
+
  .svg {
-     width: 35%;
-     align-self: flex-end;
+     width: 25vw;
+     
  }
 
  .text {
-     font-size: 2vw;
-     width: 60vw;
+     font-size: 1.75vw;
+     width: 55vw;
+     height: 35vw;
      padding: 1em;
      border-right: 0.5em dashed #c9d6df;
      border-bottom: 0.5em dashed #c9d6df;

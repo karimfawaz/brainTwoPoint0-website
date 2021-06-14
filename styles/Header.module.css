@@ -5,7 +5,6 @@
     grid-template-areas: "logo name" "logo slogan";
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr 1fr;
-  
     justify-content: center;
     width: 100%;
     
