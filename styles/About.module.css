@@ -44,9 +44,9 @@
 
  @media only screen and (max-width:700px) {
      .sectionTitle {
-         width: 20vh;
-         height: 3.5vh;
-         font-size: 1.75vh;
+         width: 25vw;
+         height: 5vw;
+         font-size: 2.75vw;
      }
      .container {
          flex-direction: column;
@@ -55,13 +55,13 @@
      .text {
          display: block;
          margin: auto;
-         font-size: 1.87vh;
-         width: 57vh;
-         height: 34vh;
+         font-size: 2.5vw;
+         width: 85vw;
+         height: 40vw;
      }
      .svg {
-         width: 25vh;
-         height: 25vh;
+         width: 33vw;
+         height: 33vw;
          align-self: flex-end;
          display: block;
          margin: auto;
