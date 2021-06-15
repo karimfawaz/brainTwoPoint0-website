@@ -26,7 +26,7 @@
 .instaSvg {
     height: 7vw;
     width: 7vw;
-    background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+    background: linear-gradient(45deg, #c9d6df,#52616b);
     border-radius: 25px;
     padding: 0.5vw;
 }
@@ -34,8 +34,8 @@
 .emailSvg {
     height: 7vw;
     width: 7vw;
-    background: linear-gradient(45deg, green, cyan, blue, #515BD4);
-    border-radius: 25px;
+    background: linear-gradient(45deg, #c9d6df,#52616b);
+     border-radius: 25px;
     padding: 0.7vw;
 }
 
@@ -52,6 +52,11 @@
     align-self: center;
     font-size: 3vw;
     margin: 2vw;
+    text-transform: uppercase;
+    border-right: #1e2022 dashed 0.5vw;
+    border-bottom: #1e2022 dashed 0.5vw;
+    padding-right: 1vw;
+    
 }
 
 @media only screen and (max-width:650px) {
@@ -72,14 +77,13 @@
     .instaSvg {
         height: 10vw;
         width: 10vw;
-        background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
         border-radius: 25px;
         padding: 0.7vw;
     }
     .emailSvg {
         height: 10vw;
         width: 10vw;
-        background: linear-gradient(45deg, green, cyan, blue, #515BD4);
+       
         border-radius: 25px;
         padding: 1vw;
     }
