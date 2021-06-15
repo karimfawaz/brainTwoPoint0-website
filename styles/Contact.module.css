@@ -56,7 +56,7 @@
 
 @media only screen and (max-width:650px) {
     .contactSection {
-        height: 50vw;
+        height: 45vw;
     }
     .sectionTitle {
         width: 25vw;
@@ -87,6 +87,7 @@
     .svg {
         width: 40vw;
         height: 40vw;
+        
     }
     .text {
         align-self: center;
