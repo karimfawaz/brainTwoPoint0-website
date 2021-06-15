@@ -1,4 +1,96 @@
-.contactSection{
-    height: 25rem;
-    display: none;
+.contactSection {
+    height: 35vw;
+    padding: 2vw;
+}
+
+.sectionTitle {
+    border: 0.5vw dashed #1e2022;
+    width: 20vw;
+    height: 3.5vw;
+    text-align: center;
+    color: #1e2022;
+    font-size: 1.75vw;
+}
+
+.contactOptions {
+    list-style: none;
+    align-self: center;
+}
+
+.contactItem {
+    margin: 2vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.instaSvg {
+    height: 7vw;
+    width: 7vw;
+    background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+    border-radius: 25px;
+    padding: 0.5vw;
+}
+
+.emailSvg {
+    height: 7vw;
+    width: 7vw;
+    background: linear-gradient(45deg, green, cyan, blue, #515BD4);
+    border-radius: 25px;
+    padding: 0.7vw;
+}
+
+.container {
+    display: flex;
+}
+
+.svg {
+    width: 30vw;
+    height: 30vw;
+}
+
+.text {
+    align-self: center;
+    font-size: 3vw;
+    margin: 2vw;
+}
+
+@media only screen and (max-width:650px) {
+    .contactSection {
+        height: 50vw;
+    }
+    .sectionTitle {
+        width: 25vw;
+        height: 5vw;
+        font-size: 2.75vw;
+    }
+    
+    .contactItem {
+        margin: 2vw;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .instaSvg {
+        height: 10vw;
+        width: 10vw;
+        background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+        border-radius: 25px;
+        padding: 0.7vw;
+    }
+    .emailSvg {
+        height: 10vw;
+        width: 10vw;
+        background: linear-gradient(45deg, green, cyan, blue, #515BD4);
+        border-radius: 25px;
+        padding: 1vw;
+    }
+    
+    .svg {
+        width: 40vw;
+        height: 40vw;
+    }
+    .text {
+        align-self: center;
+        font-size: 3.5vw;
+        margin: 2vw;
+    }
 }
