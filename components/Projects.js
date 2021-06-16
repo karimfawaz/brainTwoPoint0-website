@@ -4,7 +4,7 @@ import projectStyles from '../styles/Projects.module.css'
 const Projects = () => {
     return (
         <div className={projectStyles.projectsSection} id="projects">
-            <h4>Projects</h4>
+            <h1 className={projectStyles.sectionTitle}>Projects</h1>
         </div>
     )
 }

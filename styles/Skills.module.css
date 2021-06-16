@@ -97,6 +97,10 @@
 }
 
 @media only screen and (max-width:650px) {
+
+    .skillsSection {
+        padding-bottom: 4vw;
+    }
     .sectionTitle {
         width: 25vw;
         height: 5vw;
@@ -122,8 +126,8 @@
         margin: auto;
     }
     .card {
-        height: 50vw;
-        width: 40vw;
+        height: 47.5vw;
+        width: 37.5vw;
         padding: 1vw;
         border-radius: 16px;
         background: #1e2022;
