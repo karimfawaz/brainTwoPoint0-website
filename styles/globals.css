@@ -8,6 +8,22 @@ c9d6df
 
 */
 
+/* 
+NEW Colors
+212121
+323232
+0D7377
+14FFEC
+
+*/
+
+:root {
+    --one: #212121;
+    --two: #323232;
+    --three: #0D7377;
+    --four: #14FFEC;
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -22,19 +38,19 @@ a {
     text-decoration: none;
 }
 
- body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 0.5rem;
     height: 0.5rem;
 }
 
- body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: linear-gradient(90deg, #ff8a00, #e52e71);
     border-radius: 10px;
     box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
 }
 
- body::-webkit-scrollbar-track {
-    background-color: #1e2022;
+body::-webkit-scrollbar-track {
+    background-color: var(--one);
 }
 
 * {

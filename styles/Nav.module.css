@@ -1,7 +1,6 @@
  .navBar {
-     background-color: #1e2022;
+     background-color: var(--four);
      display: flex;
-     color: white;
      justify-content: space-evenly;
      align-items: center;
      height: 7.5vw;
@@ -11,7 +10,7 @@
  }
 
  .navItem {
-     color: white;
+     color: var(--one);
      font-weight: bold;
      font-size: 1.5em;
  }
@@ -19,7 +18,7 @@
  .brain {
      width: 5.5vw;
      min-width: 3rem;
-     color: white;
+     color: var(--one);
      animation: spinningSVG 5s;
      animation-iteration-count: infinite;
      z-index: 1;
@@ -41,5 +40,4 @@
      .navItem {
          font-size: 1.1em;
      }
-   
  }

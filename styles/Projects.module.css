@@ -1,15 +1,15 @@
 .projectsSection {
-    background-color: #1e2022;
+    background-color: var(--one);
     padding: 2vw;
 
 }
 
 .sectionTitle {
-    border: 0.5vw dashed #c9d6df;
+    border: 0.5vw dashed white;
     width: 20vw;
     height: 3.5vw;
     text-align: center;
-    color: #c9d6df;
+    color: white;
     font-size: 1.75vw;
     
 }
@@ -21,7 +21,7 @@
     
 }
 .text{
-    color: #c9d6df;
+    color: white;
     align-self:center;
     font-size: 5vw;
 }
