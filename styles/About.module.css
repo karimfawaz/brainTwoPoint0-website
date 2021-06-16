@@ -10,6 +10,7 @@
      text-align: center;
      color: #c9d6df;
      font-size: 1.75vw;
+     align-self: center;
  }
 
  .container {
@@ -47,6 +48,7 @@
          width: 25vw;
          height: 5vw;
          font-size: 2.75vw;
+         
      }
      .container {
          flex-direction: column;
@@ -57,7 +59,7 @@
          margin: auto;
          font-size: 2.5vw;
          width: 85vw;
-         height: 35vw;
+         height: 37vw;
      }
      .svg {
          width: 33vw;

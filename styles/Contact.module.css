@@ -1,6 +1,7 @@
 .contactSection {
     height: 35vw;
     padding: 2vw;
+    align-self: center;
 }
 
 .sectionTitle {
