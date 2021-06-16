@@ -39,7 +39,7 @@ const Skills = () => {
                 <section className={cardStyles.cardList}>
 
                     {skillsList.map((skillCard) => (<article className={cardStyles.card}>
-                        <img src={skillCard.img} height="150px" width="150px" className={cardStyles.skillImg} />
+                        <img src={skillCard.img} className={cardStyles.skillImg} />
                         <header className={cardStyles.cardHeader}>
 
                             <h2>{skillCard.name}</h2>
