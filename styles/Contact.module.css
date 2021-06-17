@@ -2,14 +2,15 @@
     height: 35vw;
     padding: 2vw;
     align-self: center;
+    background-color: var(--two );
 }
 
 .sectionTitle {
-    border: 0.5vw dashed var(--one);
+    border: 0.5vw dashed var(--three);
     width: 20vw;
     height: 3.5vw;
     text-align: center;
-    color: var(--one);
+    color: var(--three);
     font-size: 1.75vw;
 }
 
@@ -56,8 +57,9 @@
     font-size: 3vw;
     margin: 2vw;
     text-transform: uppercase;
-    border-right: var(--one) dashed 0.5vw;
-    border-bottom: var(--one) dashed 0.5vw;
+    border-right: var(--three) dashed 0.5vw;
+    border-bottom: var(--three) dashed 0.5vw;
+    color: var(--three);
     padding-right: 1vw;
     
 }

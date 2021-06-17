@@ -1,5 +1,5 @@
 .header {
-    background-color: white;
+    background-color: var(--three);
     padding: 2rem;
     display: grid;
     grid-template-areas: "logo name" "logo slogan";
