@@ -7,6 +7,7 @@
 
 .sectionTitle {
     border: 0.5vw dashed var(--three);
+    font-weight: bold;
     width: 20vw;
     height: 3.5vw;
     text-align: center;
