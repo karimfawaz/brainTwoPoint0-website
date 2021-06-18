@@ -1,6 +1,6 @@
 .header {
     background-color: white;
-    padding: 2rem;
+    padding: 2vw;
     display: grid;
     grid-template-areas: "logo name" "logo slogan";
     grid-template-columns: 1fr 2fr;
@@ -54,32 +54,19 @@
         width: 30ch;
     }
 }
-/* 
+
 @media only screen and (max-width:900px) {
-    .companyName {
-        font-size: 5rem;
-    }
-    .companySlogan {
-        font-size: 1.2rem;
-        border-right: none;
-        height: 2rem;
-        animation: none;
-        
-    }
-    .header {
-        grid-template-areas: "logo"" name" " slogan";
-        grid-template-columns: 1fr;
-        
-        justify-content: center;
-    }
-
     
-.companyLogo {
-    height: 15rem;
-    width: 15rem;
-    justify-self: center;
-    grid-area: logo;
+    @keyframes type {
+        0% {
+            width: 0ch;
+        }
+        50% {
+            width: 31ch;
+        }
+        100%{
+            width: 31ch;
+        }
+    }
+
 }
-
-
-} */
