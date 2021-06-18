@@ -2,16 +2,16 @@
     height: 35vw;
     padding: 2vw;
     align-self: center;
-    background-color: var(--two );
+    background-color: var(--three);
 }
 
 .sectionTitle {
-    border: 0.5vw dashed var(--three);
-    font-weight: bold;
+    /* border: 0.5vw dashed var(--three); */
+    
     width: 20vw;
     height: 3.5vw;
     text-align: center;
-    color: var(--three);
+    color: var(--one);
     font-size: 1.75vw;
 }
 
@@ -29,7 +29,7 @@
 .instaSvg {
     height: 7vw;
     width: 7vw;
-    background: linear-gradient(45deg, var(--four),var(--three));
+    background: linear-gradient(45deg, var(--one),var(--three));
     border-radius: 25px;
     padding: 0.5vw;
 }
@@ -37,7 +37,7 @@
 .emailSvg {
     height: 7vw;
     width: 7vw;
-    background: linear-gradient(45deg, var(--four),var(--three));
+    background: linear-gradient(45deg, var(--one),var(--three));
      border-radius: 25px;
     padding: 0.7vw;
 }
@@ -58,9 +58,9 @@
     font-size: 3vw;
     margin: 2vw;
     text-transform: uppercase;
-    border-right: var(--three) dashed 0.5vw;
-    border-bottom: var(--three) dashed 0.5vw;
-    color: var(--three);
+    border-right: var(--one) dashed 0.5vw;
+    border-bottom: var(--one) dashed 0.5vw;
+    color: var(--one);
     padding-right: 1vw;
     
 }

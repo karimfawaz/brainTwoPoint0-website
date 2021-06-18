@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--three);
+    background-color: white;
     padding: 2rem;
     display: grid;
     grid-template-areas: "logo name" "logo slogan";
@@ -48,10 +48,10 @@
         width: 0ch;
     }
     50% {
-        width: 28.5ch;
+        width: 30ch;
     }
     100%{
-        width: 28.5ch;
+        width: 30ch;
     }
 }
 /* 

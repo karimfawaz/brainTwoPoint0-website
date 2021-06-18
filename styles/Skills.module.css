@@ -1,11 +1,10 @@
 .skillsSection {
-    background-color: var(--four);
+    background-color: var(--three);
     padding: 2vw;
 }
 
 .sectionTitle {
-    border: 0.5vw dashed var(--one);
-    font-weight: bold;
+    /* border: 0.5vw dashed var(--one); */
     width: 20vw;
     height: 3.5vw;
     text-align: center;

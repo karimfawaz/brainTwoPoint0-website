@@ -1,26 +1,7 @@
-/* 
-COLORS:
-f0f5f9
-c9d6df
-52616b
-1e2022
-
-
-*/
-
-/* 
-NEW Colors
-212121
-323232
-0D7377
-14FFEC
-
-*/
-
 :root {
-    --one: #1B262C;
-    --two: #0F4C75;
-    --three: #BBE1FA;
+    --one: #342E37;
+    --two: #7C9EB2;
+    --three: #EFF8E2;
     --four: #3282B8;
 }
 
@@ -28,9 +9,8 @@ html, body {
     padding: 0;
     margin: 0;
     /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    font-family: 'Impact', sans-serif;
     
-    font-family: 'Prompt', sans-serif;
-    /* letter-spacing: 1px; */
     background-color: #f0f5f9;
     scroll-behavior: smooth;
     overflow-x: hidden;
