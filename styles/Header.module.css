@@ -27,7 +27,7 @@
     animation: type 6s steps(32) infinite;
     animation-delay: 2s;
     border-right: 2px solid black;
-    /* width: 28ch; */
+  
     height: 4vw;
     margin-left: 1vw;
     margin-top: 1vw;
@@ -48,9 +48,9 @@
         width: 0ch;
     }
     50% {
-        width: 31ch;
+        width: 32ch;
     }
     100%{
-        width: 31ch;
+        width: 32ch;
     }
 }

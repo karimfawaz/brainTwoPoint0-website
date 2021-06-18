@@ -1,7 +1,7 @@
  .footer {
      background-color: var(--one);
      padding: 1.5vw;
-     height: 5vw;
+     height: 4.5vw;
  }
 
  .copyright {
@@ -13,10 +13,9 @@
 
  @media only screen and (max-width:650px) {
      .footer {
-         height: 12vw;
+         height: 6vw;
      }
      .copyright {
          font-size: 2vw;
-         
      }
  }

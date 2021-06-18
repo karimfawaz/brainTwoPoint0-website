@@ -1,5 +1,5 @@
  .about {
-     background-color: var(--three);
+     background-color: var(--one);
      padding: 2vw;
  }
 
@@ -7,9 +7,8 @@
      width: 20vw;
      height: 3.5vw;
      text-align: center;
-     color: var(--one);
+     color: white;
      font-size: 2.5vw;
-    
  }
 
  .container {
@@ -22,11 +21,11 @@
  .text {
      font-size: 1.5vw;
      width: 57vw;
-     height: 25vw;
+     height: 21vw;
      padding: 1vw;
-     border-right: 0.5vw dashed var(--one);
-     border-bottom: 0.5vw dashed var(--one);
-     color: var(--one);
+     border-right: 0.5vw dashed white;
+     border-bottom: 0.5vw dashed white;
+     color: white;
  }
 
  .svg {
@@ -58,11 +57,9 @@
          width: 85vw;
          height: 45vw;
      }
-
      .quote {
-        font-size: 3.5vw;
-
-    }
+         font-size: 3.5vw;
+     }
      .svg {
          width: 33vw;
          height: 33vw;

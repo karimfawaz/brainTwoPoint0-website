@@ -2,17 +2,17 @@
     height: 35vw;
     padding: 2vw;
     align-self: center;
-    background-color: var(--one);
+    background-color: var(--three);
 }
 
 .sectionTitle {
-    /* border: 0.5vw dashed var(--three); */
     
     width: 20vw;
     height: 3.5vw;
     text-align: center;
-    color: var(--three);
-    font-size: 1.75vw;
+    color: var(--one);
+    font-size: 2.5vw;
+    
 }
 
 .contactOptions {
@@ -29,17 +29,11 @@
 .instaSvg {
     height: 7vw;
     width: 7vw;
-    background: linear-gradient(45deg, var(--one),var(--three));
-    border-radius: 25px;
-    padding: 0.5vw;
 }
 
 .emailSvg {
-    height: 7vw;
-    width: 7vw;
-    background: linear-gradient(45deg, var(--one),var(--three));
-     border-radius: 25px;
-    padding: 0.7vw;
+    height: 6vw;
+    width: 6vw;
 }
 
 .container {
@@ -58,11 +52,10 @@
     font-size: 3vw;
     margin: 2vw;
     text-transform: uppercase;
-    border-right: var(--three) dashed 0.5vw;
-    border-bottom: var(--three) dashed 0.5vw;
-    color: var(--three);
+    border-right: var(--one) dashed 0.5vw;
+    border-bottom: var(--one) dashed 0.5vw;
+    color: var(--one);
     padding-right: 1vw;
-    
 }
 
 @media only screen and (max-width:650px) {
@@ -72,9 +65,8 @@
     .sectionTitle {
         width: 25vw;
         height: 5vw;
-        font-size: 2.75vw;
+        font-size: 3.5vw;
     }
-    
     .contactItem {
         margin: 2vw;
         display: flex;
@@ -83,25 +75,17 @@
     .instaSvg {
         height: 10vw;
         width: 10vw;
-        border-radius: 25px;
-        padding: 0.7vw;
     }
     .emailSvg {
         height: 10vw;
         width: 10vw;
-       
-        border-radius: 25px;
-        padding: 1vw;
     }
-    
     .svg {
         width: 40vw;
         height: 40vw;
-        
     }
     .text {
         align-self: center;
-        
         margin: 2vw;
     }
 }
