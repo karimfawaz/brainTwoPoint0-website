@@ -12,7 +12,11 @@
  .navItem {
      color: white;
      font-weight: bold;
-     font-size: 1.5em;
+     font-size: 2vw;
+     border-bottom: 0.3vw dashed white;
+ }
+ .navItem:hover{
+     font-size: 2.5vw;
  }
 
  .brain {
@@ -38,6 +42,10 @@
 
  @media only screen and (max-width:600px) {
      .navItem {
-         font-size: 1.1em;
+         font-size: 4vw;
+         border-bottom: .75vw dashed white;
      }
+     .navItem:hover{
+        font-size: 4.5vw;
+    }
  }
