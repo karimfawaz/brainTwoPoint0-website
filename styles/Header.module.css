@@ -27,7 +27,7 @@
     animation-delay: 2s;
     border-right: 0.25vw solid black;
     height: 4vw;
-    width: 32ch;
+    width: 56vw;
     margin-left: 1vw;
     margin-top: 1vw;
     grid-area: slogan;
@@ -46,10 +46,10 @@
         width: 0ch;
     }
     50% {
-        width: 32ch;
+        width: 56vw;
     }
     100% {
-        width: 32ch;
+        width: 56vw;
     }
 }
 
