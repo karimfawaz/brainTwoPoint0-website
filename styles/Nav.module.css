@@ -22,6 +22,9 @@
 
  .brain {
      width: 5.5vw;
+     width: 5.5vw;
+     align-self: center;
+     justify-self: center;
      min-width: 3rem;
      color: white;
      animation: spinningSVG 5s;
