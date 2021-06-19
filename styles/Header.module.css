@@ -7,8 +7,6 @@
     grid-template-rows: 2fr 1fr;
     justify-content: center;
     width: 100%;
-    
-
 }
 
 .companyName {
@@ -16,7 +14,8 @@
     font-size: 13vw;
     grid-area: name;
     align-self: flex-start;
-     height: 10vw;
+    height: 13vw;
+    width: 60vw;
 }
 
 .companySlogan {
@@ -24,16 +23,15 @@
     font-size: 3vw;
     overflow: hidden;
     white-space: nowrap;
-    animation: type 6s steps(32) infinite;
+    animation: type 6s steps(32), blink 1s infinite;
     animation-delay: 2s;
-    border-right: 2px solid black;
-  
+    border-right: 0.25vw solid black;
     height: 4vw;
+    width: 32ch;
     margin-left: 1vw;
     margin-top: 1vw;
     grid-area: slogan;
     align-self: flex-start;
-  
 }
 
 .companyLogo {
@@ -50,7 +48,16 @@
     50% {
         width: 32ch;
     }
-    100%{
+    100% {
         width: 32ch;
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black;
     }
 }

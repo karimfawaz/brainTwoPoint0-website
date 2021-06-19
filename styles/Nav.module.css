@@ -15,7 +15,8 @@
      font-size: 2vw;
      border-bottom: 0.3vw dashed white;
  }
- .navItem:hover{
+
+ .navItem:hover {
      font-size: 2.5vw;
  }
 
@@ -26,6 +27,11 @@
      animation: spinningSVG 5s;
      animation-iteration-count: infinite;
      z-index: 1;
+ }
+
+ .brain:hover {
+     height: 6vw;
+     width: 6vw;
  }
 
  @keyframes spinningSVG {
@@ -45,7 +51,7 @@
          font-size: 4vw;
          border-bottom: .75vw dashed white;
      }
-     .navItem:hover{
-        font-size: 4.5vw;
-    }
+     .navItem:hover {
+         font-size: 4.5vw;
+     }
  }
