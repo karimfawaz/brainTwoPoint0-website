@@ -32,11 +32,6 @@
      z-index: 1;
  }
 
- .brain:hover {
-     height: 6vw;
-     width: 6vw;
- }
-
  @keyframes spinningSVG {
      from {
          transform: rotate(0deg);
