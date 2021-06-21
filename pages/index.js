@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Nav from '../components/Nav'
-import Header from '../components/Header'
+import Splash from '../components/Splash'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
@@ -15,14 +15,14 @@ export default function Home() {
   return (
     <div  >
 
-      <Nav />
+
       <Head>
         <title>Brain 2.0</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
-      <Header />
-
+      <Splash />
+      <Nav />
       <About />
 
       <Skills />
