@@ -10,7 +10,7 @@
     padding: 2vw;
     justify-content: center;
     align-items: center;
-    animation: display 8s forwards;
+    /* animation: display 8s forwards; */
 }
 
 .companyName {
@@ -69,7 +69,7 @@
         opacity: 1;
         z-index: 10;
     }
-    99%{
+    99% {
         z-index: 10;
     }
     100% {
@@ -77,4 +77,30 @@
         display: none;
         z-index: -200;
     }
+}
+
+@media only screen and (max-width:650px) {
+    .splash {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .companyLogo {
+        width: 40vw;
+        height: 40vw;
+    }
+    .companySlogan {
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .companyName {
+        color: black;
+        font-size: 14vw;
+        height: 15vw;
+        width: 60vw;
+        text-align: center;
+
+    }
+   
 }
