@@ -1,18 +1,15 @@
 .contactSection {
-    height: 35vw;
     padding: 2vw;
     align-self: center;
     background-color: var(--two);
 }
 
 .sectionTitle {
-    
     width: 20vw;
     height: 3.5vw;
     text-align: center;
     color: var(--one);
     font-size: 2.5vw;
-    
 }
 
 .contactOptions {
@@ -21,9 +18,7 @@
 }
 
 .contactItem {
-    margin: 2vw;
     display: flex;
-    justify-content: flex-start;
 }
 
 .instaSvg {
@@ -39,17 +34,31 @@
 .container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 3vw;
 }
 
 .svg {
-    width: 40vw;
-    height: 30vw;
+    width: 30vw;
+    height: 20vw;
 }
 
-.text {
-    width: 50vw;
+.leftText {
+    padding: 1vw;
+    width: 40vw;
     align-self: center;
     font-size: 3vw;
+    text-transform: uppercase;
+    border-left: var(--one) dashed 0.5vw;
+    border-top: var(--one) dashed 0.5vw;
+    color: var(--one);
+    padding-right: 1vw;
+}
+
+.rightText {
+    padding-bottom: 1vw;
+    width: 40vw;
+    align-self: center;
+    font-size: 2.5vw;
     margin: 2vw;
     text-transform: uppercase;
     border-right: var(--one) dashed 0.5vw;
