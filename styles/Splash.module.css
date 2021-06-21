@@ -1,3 +1,4 @@
+
 .splash {
     display: flex;
     position: fixed;
@@ -7,7 +8,6 @@
     height: 100vh;
     width: 100%;
     background-color: white;
-    
     justify-content: center;
     align-items: center;
     animation: display 7s forwards;
@@ -64,10 +64,12 @@
     0% {
         opacity: 1;
         z-index: 10;
+        
     }
     95% {
         opacity: 1;
         z-index: 10;
+        
     }
     99% {
         z-index: 10;
@@ -84,7 +86,6 @@
         flex-direction: column;
         padding-top: 35vw;
         justify-content: start;
-
     }
     .companyLogo {
         width: 40vw;
@@ -95,7 +96,6 @@
         justify-self: start;
         font-size: 4vw;
         height: 5vw;
-        
     }
     .companyName {
         font-size: 14vw;
@@ -110,7 +110,6 @@
         justify-content: space-evenly;
         flex-direction: column;
     }
-
     @keyframes type {
         0% {
             width: 0ch;
