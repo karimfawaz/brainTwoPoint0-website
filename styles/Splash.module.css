@@ -10,7 +10,7 @@
     padding: 2vw;
     justify-content: center;
     align-items: center;
-    /* animation: display 8s forwards; */
+    animation: display 8s forwards;
 }
 
 .companyName {
