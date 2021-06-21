@@ -91,8 +91,8 @@
         height: 40vw;
     }
     .companySlogan {
-        text-align: center;
-        justify-self: center;
+        text-align: start;
+        justify-self: start;
         font-size: 4vw;
         height: 5vw;
         
