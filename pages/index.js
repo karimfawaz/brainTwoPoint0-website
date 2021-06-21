@@ -1,7 +1,10 @@
 import Head from 'next/head'
 
-import Nav from '../components/Nav'
 import Splash from '../components/Splash'
+
+
+import Nav from '../components/Nav'
+import Company from '../components/Company'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
@@ -22,7 +25,11 @@ export default function Home() {
       </Head>
 
       <Splash />
+
       <Nav />
+
+      <Company />
+
       <About />
 
       <Skills />
