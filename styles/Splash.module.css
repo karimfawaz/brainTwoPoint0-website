@@ -7,7 +7,6 @@
     height: 100vh;
     width: 100%;
     background-color: white;
-    padding: 2vw;
     justify-content: center;
     align-items: center;
     animation: display 8s forwards;
@@ -45,12 +44,9 @@
     }
     50% {
         width: 31.5ch;
-        
-
     }
     100% {
         width: 31.5ch;
-    
     }
 }
 
@@ -95,7 +91,7 @@
         justify-self: center;
         font-size: 4vw;
         height: 5vw;
-
+        width: 31.5ch;
     }
     .companyName {
         font-size: 14vw;
