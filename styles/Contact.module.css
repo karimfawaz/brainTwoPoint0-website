@@ -68,33 +68,12 @@
 }
 
 @media only screen and (max-width:650px) {
-    .contactSection {
-        height: 45vw;
-    }
+    
     .sectionTitle {
         width: 25vw;
         height: 5vw;
         font-size: 3.5vw;
     }
-    .contactItem {
-        margin: 2vw;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .instaSvg {
-        height: 10vw;
-        width: 10vw;
-    }
-    .emailSvg {
-        height: 10vw;
-        width: 10vw;
-    }
-    .svg {
-        width: 40vw;
-        height: 40vw;
-    }
-    .text {
-        align-self: center;
-        margin: 2vw;
-    }
+  
+    
 }
