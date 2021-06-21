@@ -43,10 +43,10 @@
         width: 0ch;
     }
     50% {
-        width: 31.5ch;
+        width: 32ch;
     }
     100% {
-        width: 31.5ch;
+        width: 32ch;
     }
 }
 
@@ -91,7 +91,7 @@
         justify-self: center;
         font-size: 4vw;
         height: 5vw;
-        width: 31.5ch;
+        
     }
     .companyName {
         font-size: 14vw;
