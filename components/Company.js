@@ -2,7 +2,7 @@
 const Company = () => {
     return (
         <div>
-            <h1>Company</h1>
+            <img src="brainlogo256.png"/>
         </div>
     )
 }
