@@ -44,10 +44,13 @@
         width: 0ch;
     }
     50% {
-        width: 31.75ch;
+        width: 31.5ch;
+        
+
     }
     100% {
-        width: 31.75ch;
+        width: 31.5ch;
+    
     }
 }
 
@@ -82,7 +85,6 @@
 @media only screen and (max-width:650px) {
     .splash {
         flex-direction: column;
-        justify-content: center;
     }
     .companyLogo {
         width: 40vw;
@@ -91,16 +93,21 @@
     .companySlogan {
         text-align: center;
         justify-self: center;
+        font-size: 4vw;
+        height: 5vw;
+
+    }
+    .companyName {
+        font-size: 14vw;
+        text-align: center;
+        justify-self: center;
         align-self: center;
     }
-
-    .companyName {
-        color: black;
-        font-size: 14vw;
-        height: 15vw;
-        width: 60vw;
-        text-align: center;
-
+    .container {
+        display: flex;
+        height: 25vw;
+        width: 70vw;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
-   
 }
