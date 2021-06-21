@@ -7,7 +7,8 @@
     height: 100vh;
     width: 100%;
     background-color: white;
-    padding-top: 35vw;
+    
+    justify-content: center;
     align-items: center;
     animation: display 8s forwards;
 }
@@ -81,6 +82,9 @@
 @media only screen and (max-width:650px) {
     .splash {
         flex-direction: column;
+        padding-top: 35vw;
+        justify-content: start;
+
     }
     .companyLogo {
         width: 40vw;
@@ -105,5 +109,17 @@
         width: 70vw;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+
+    @keyframes type {
+        0% {
+            width: 0ch;
+        }
+        50% {
+            width: 75vw;
+        }
+        100% {
+            width: 75vw;
+        }
     }
 }
