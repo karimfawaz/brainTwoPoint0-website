@@ -1,8 +1,8 @@
-
+import companyStyles from '../styles/Company.module.css'
 const Company = () => {
     return (
-        <div>
-            <img src="brainlogo256.png"/>
+        <div className={companyStyles.companySection}>
+            <img className={companyStyles.logo} src="brainlogo256.png"/>
         </div>
     )
 }
