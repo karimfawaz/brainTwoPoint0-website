@@ -17,12 +17,8 @@ html, body {
     0% {
         overflow-y: hidden;
     }
-   
     99% {
         overflow-y: hidden;
-    }
-    100% {
-       
     }
 }
 
