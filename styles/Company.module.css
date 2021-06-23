@@ -11,16 +11,21 @@
 .sloganDown {
     align-self: flex-end;
     font-size: 3vw;
+    border-bottom: 0.5vw dashed black;
+    
 }
 
 .sloganUp {
     align-self: flex-start;
     font-size: 3vw;
+    border-top: 0.5vw dashed black;
+    
 }
 
 .logo {
     height: 20vw;
     width: 20vw;
+    align-self: center;
 }
 
 .name {
@@ -31,4 +36,30 @@
     opacity: 0.7;
     z-index: -100;
     color: var(--two);
+}
+
+@media only screen and (max-width:650px) {
+    .container {
+        height: 50vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+    .sloganDown {
+        align-self: flex-end;
+        font-size: 3.3vw;
+    }
+    .sloganUp {
+        align-self: flex-start;
+        font-size: 3.3vw;
+    }
+    .logo {
+        height: 35vw;
+        width: 35vw;
+    }
+    .name {
+        width: 100%;
+        top: 25%;
+        position: absolute;
+        font-size: 20vw;
+    }
 }
