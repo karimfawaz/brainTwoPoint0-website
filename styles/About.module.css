@@ -21,7 +21,6 @@
  .text {
      font-size: 1.5vw;
      width: 57vw;
-     height: 21vw;
      padding: 1vw;
      border-right: 0.5vw dashed white;
      border-bottom: 0.5vw dashed white;
@@ -55,7 +54,8 @@
          margin: auto;
          font-size: 3vw;
          width: 85vw;
-         height: 45vw;
+         padding: 2vw;
+         
      }
      .quote {
          font-size: 3.5vw;
