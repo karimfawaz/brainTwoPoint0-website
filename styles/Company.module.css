@@ -12,14 +12,12 @@
     align-self: flex-end;
     font-size: 3vw;
     border-bottom: 0.5vw dashed black;
-    
 }
 
 .sloganUp {
     align-self: flex-start;
     font-size: 3vw;
     border-top: 0.5vw dashed black;
-    
 }
 
 .logo {
