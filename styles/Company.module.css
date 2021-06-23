@@ -7,52 +7,53 @@
     justify-content: center;
 }
 
-.sloganDown {
-    align-self: flex-end;
-    font-size: 3vw;
-    border-bottom: 0.5vw dashed black;
-}
-
 .sloganUp {
     align-self: flex-start;
     font-size: 3vw;
     border-top: 0.5vw dashed black;
 }
 
+.sloganDown {
+    align-self: flex-end;
+    font-size: 3vw;
+    border-bottom: 0.5vw dashed black;
+}
+
 .logo {
-    height: 20vw;
-    width: 20vw;
+    height: 17vw;
+    width: 17vw;
     align-self: center;
     margin: 4vw;
 }
 
 .name {
     width: 100%;
-    position: absolute;
-    font-size: 20vw;
-    top: 25%;
+    height: 50%;
     text-align: center;
-    opacity: 0.7;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     z-index: -100;
+    font-size: 18vw;
+    opacity: 0.7;
     color: var(--two);
 }
 
 @media only screen and (max-width:650px) {
-    .sloganDown {
-        align-self: flex-end;
-        font-size: 3vw;
-        width: 30vw;
-        height: 5vw;
-        overflow-y: hidden;
-        overflow-x: visible;
-    }
     .sloganUp {
         align-self: flex-start;
         font-size: 3vw;
         width: 25vw;
         height: 5vw;
-        overflow-y: hidden;
-        overflow-x: visible;
+    }
+    .sloganDown {
+        align-self: flex-end;
+        font-size: 3vw;
+        width: 30vw;
+        height: 5vw;
     }
     .logo {
         height: 30vw;
@@ -60,6 +61,6 @@
     }
     .name {
         font-size: 20vw;
-        top: 20%;
+        height: 57.5%;
     }
 }
