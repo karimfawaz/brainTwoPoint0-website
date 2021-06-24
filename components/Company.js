@@ -3,8 +3,10 @@ const Company = () => {
     return (
         <div className={companyStyles.companySection}>
             <h2 className={companyStyles.sloganUp}>Driven by Values</h2>
-            <h1 className={companyStyles.name}>BRAIN 2.0</h1>
-            <img className={companyStyles.logo} src="brainlogo256.png" />
+            <div className={companyStyles.container}>
+                <h1 className={companyStyles.name}>BRAIN 2.</h1>
+                <img className={companyStyles.logo} src="brain256.png" />
+            </div>
             <h2 className={companyStyles.sloganDown}>Powered by Intellect</h2>
         </div>
     )
