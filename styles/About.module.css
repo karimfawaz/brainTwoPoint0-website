@@ -57,10 +57,12 @@
          font-size: 3vw;
          width: 85vw;
          padding: 2vw;
+         line-height: 4vw;
          
      }
      .quote {
          font-size: 3.5vw;
+         line-height: 8vw;
      }
      .svg {
          width: 33vw;
