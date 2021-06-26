@@ -2,7 +2,6 @@ import companyStyles from '../styles/Company.module.css'
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom';
 
 
 const Company = () => {
