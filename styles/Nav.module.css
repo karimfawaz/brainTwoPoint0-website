@@ -6,7 +6,7 @@
      height: 7.5vw;
      min-height: 5rem;
      max-height: 7rem;
-     padding: 1vh;
+     padding: 3vw;
  }
 
  .navItem {
@@ -14,10 +14,15 @@
      font-weight: bold;
      font-size: 2vw;
      border-bottom: 0.3vw dashed white;
+     text-align: center;
+     height: 2.75vw;
+     width: 8vw;
  }
 
  .navItem:hover {
      font-size: 2.5vw;
+     height: 3.3vw;
+     width: 10vw;
  }
 
  .brain {
