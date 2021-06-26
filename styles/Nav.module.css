@@ -53,8 +53,14 @@
      .navItem {
          font-size: 4vw;
          border-bottom: .75vw dashed white;
+         height: 6vw;
+         width: 15vw;
      }
      .navItem:hover {
          font-size: 4vw;
+     }
+     .brain {
+         width: 11vw;
+         width: 11vw;
      }
  }
