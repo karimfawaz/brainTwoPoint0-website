@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 import Head from 'next/head'
 
 import Splash from '../components/Splash'
@@ -16,28 +18,20 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div  >
 
+    <div  >
 
       <Head>
         <title>Brain 2.0</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
-
       <Splash />
-
       <Nav />
-
       <Company />
-
       <About />
-
       <Skills />
-
       <Projects />
-
       <Contact />
-
       <Footer />
 
     </div>
