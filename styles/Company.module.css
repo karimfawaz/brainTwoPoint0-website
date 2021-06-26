@@ -10,6 +10,7 @@
     padding-top: .5vw;
     width: 25vw;
     height: 5vw;
+    animation: display 5s 1s forwards;
 }
 
 .sloganDown {
@@ -22,17 +23,21 @@
     padding-bottom: .5vw;
     width: 30vw;
     height: 5vw;
+    animation: display 5s 2s forwards;
 }
 
 .container {
     display: flex;
     justify-content: center;
+   
 }
 
 .logo {
     height: 13vw;
     width: 13vw;
     align-self: center;
+    animation: display 5s 1.75s forwards;
+    
 }
 
 .name {
@@ -41,6 +46,25 @@
     font-size: 17vw;
     opacity: 0.7;
     color: var(--two);
+    animation: display 5s 1.5s forwards;
+}
+
+@keyframes display {
+    0% {
+        opacity: 0;
+        
+        
+    }
+    90% {
+        opacity: 0;
+        
+        
+    }
+    
+    100% {
+        opacity: 1;
+        
+    }
 }
 
 @media only screen and (max-width:650px) {
