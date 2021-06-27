@@ -18,18 +18,27 @@ const Company = () => {
     }, [controls, inView]);
 
     return (
-        <div className={companyStyles.companySection}>
-            <h2 className={companyStyles.sloganUp}>Driven by Values</h2>
+        <motion.div ref={ref} initial="hidden" animate={controls} variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1, transition: { delay: .7 } }
+        }} className={companyStyles.companySection}>
+            <motion.h2 ref={ref} initial="hidden" animate={controls} variants={{
+                hidden: { x: -400, opacity: 0 },
+                visible: { x: 0, opacity: 1, transition: { delay: .7 } }
+            }} className={companyStyles.sloganUp}>Driven by Values</motion.h2>
             <div className={companyStyles.container}>
                 <h1 className={companyStyles.name}>BRAIN 2.</h1>
                 <motion.img ref={ref} initial="hidden" animate={controls} variants={{
                     hidden: { scale: 0 },
-                    visible: { scale: 1, transition: { delay: .4} }
+                    visible: { scale: 1, transition: { delay: .7 } }
                 }}
                     className={companyStyles.logo} src="brain256.png" />
             </div>
-            <h2 className={companyStyles.sloganDown}>Powered by Intellect</h2>
-        </div>
+            <motion.h2 ref={ref} initial="hidden" animate={controls} variants={{
+                hidden: { x: 400, opacity: 0 },
+                visible: { x: 0, opacity: 1, transition: { delay: .7 } }
+            }} className={companyStyles.sloganDown}>Powered by Intellect</motion.h2>
+        </motion.div>
     )
 }
 
