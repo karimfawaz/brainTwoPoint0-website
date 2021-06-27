@@ -1,17 +1,14 @@
+.projectsSection {
+    background-color: var(--one);
+    padding: 3vw;
+}
+
 .sectionHeader {
     display: flex;
     justify-content: space-between;
     text-align: center;
     color: white;
     font-size: 2.5vw;
-
-}
-
-
-
-.projectsSection {
-    background-color: var(--one);
-    padding: 3vw;
 }
 
 .sectionTitle {
@@ -26,6 +23,37 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 2vw;
+}
+
+.projectsCards {
+    display: grid;
+    gap: 3vw;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    padding-top: 2vw;
+    background-color: var(--two);
+    height: 17vw;
+    width: 22vw;
+    border-radius: 3vw;
+}
+
+.cardImg {
+    border-radius: 3vw;
+    height: 10vw;
+    width: 10vw;
+    display: block;
+    margin: auto;
+}
+
+.cardTitle {
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 1.5vw;
 }
 
 .text {
@@ -37,12 +65,46 @@
 .svg {
     height: 30vw;
     width: 30vw;
+    align-self: center;
 }
 
 @media only screen and (max-width:700px) {
+
+    .sectionHeader {
+        
+        font-size: 3.5vw;
+    }
     .sectionTitle {
         width: 25vw;
         height: 5vw;
         font-size: 3.5vw;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 5vw;
+    }
+    .card {
+        padding-top: 2vw;
+        background-color: var(--two);
+        height: 30vw;
+        width: 30vw;
+        border-radius: 3vw;
+    }
+    .cardImg {
+        height: 17vw;
+        width: 17vw;
+      
+    }
+    .cardTitle {
+        padding-top: 4vw;
+
+        font-size: 2.5vw;
+    }
+
+    .svg {
+        height: 40vw;
+        width: 40vw;
+        
     }
 }

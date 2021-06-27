@@ -33,7 +33,10 @@ const Projects = () => {
                             <h4 className={projectStyles.text}>Coming Soon...</h4> :
                             projectsList.map((project) => (
                                 <Link key={project.name} href={"/projects/" + project.id}>
-                                    <h2>{project.name}</h2>
+                                    <div className={projectStyles.card}>
+                                        <img className={projectStyles.cardImg} src={project.logo} />
+                                        <h2 className={projectStyles.cardTitle}>{project.name}</h2>
+                                    </div>
                                 </Link>
                             ))}
 
