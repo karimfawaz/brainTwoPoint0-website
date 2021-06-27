@@ -60,7 +60,7 @@ const Skills = () => {
                     visible: { x: 0, opacity: 1, transition: { delay: .5 } }
                 }} className={cardStyles.cardList}>
 
-                    {skillsList.map((skillCard) => (<article className={cardStyles.card}>
+                    {skillsList.map((skillCard) => (<article key={skillsList.name} className={cardStyles.card}>
                         <img src={skillCard.img} className={cardStyles.skillImg} />
                         <header className={cardStyles.cardHeader}>
 

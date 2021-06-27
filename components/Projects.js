@@ -1,9 +1,12 @@
-import projectStyles from '../styles/Projects.module.css'
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import React, { useEffect } from 'react';
+import Link from 'next/link'
 
-const projectsList = [];
+
+import projectStyles from '../styles/Projects.module.css'
+import projectsList from '../pages/projects/list';
+
 const Projects = () => {
 
     const controls = useAnimation();
@@ -19,13 +22,22 @@ const Projects = () => {
     }, [controls, inView]);
     return (
         <div className={projectStyles.projectsSection} id="projects">
-            <h1 className={projectStyles.sectionTitle}>Projects</h1>
+            <div className={projectStyles.sectionHeader}>
+                <h1 className={projectStyles.sectionTitle}>Projects</h1>
+                <Link href="/projects">See All</Link>
+            </div>
             <div className={projectStyles.container}>
-                {projectsList.length === 0 ?
-                    <h4 className={projectStyles.text}>Coming Soon...</h4> :
-                    projectsList.map((project) => (
-                        <h2>{project.projectName}</h2>
-                    ))}
+                <div className={projectStyles.projectsCards}>
+                    {
+                        projectsList.length === 0 ?
+                            <h4 className={projectStyles.text}>Coming Soon...</h4> :
+                            projectsList.map((project) => (
+                                <Link key={project.name} href={"/projects/" + project.id}>
+                                    <h2>{project.name}</h2>
+                                </Link>
+                            ))}
+
+                </div>
                 <motion.svg ref={ref} initial="hidden" animate={controls} variants={{
                     hidden: { x: 100, opacity: 0 },
                     visible: { x: 0, opacity: 1, transition: { delay: .5 } }
