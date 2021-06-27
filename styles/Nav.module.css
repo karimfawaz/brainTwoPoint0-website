@@ -12,7 +12,7 @@
  .navItem {
      color: white;
      font-weight: bold;
-     font-size: 2vw;
+     font-size: 1.75vw;
      border-bottom: 0.3vw dashed white;
      text-align: center;
      height: 2.75vw;
@@ -51,8 +51,9 @@
 
  @media only screen and (max-width:600px) {
      .navItem {
-         font-size: 4vw;
+         font-size: 3.35vw;
          border-bottom: .75vw dashed white;
+         letter-spacing: .35vw;
          height: 6vw;
          width: 15vw;
      }

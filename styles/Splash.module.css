@@ -44,10 +44,10 @@
         width: 0ch;
     }
     50% {
-        width: 32ch;
+        width: 28.5ch;
     }
     100% {
-        width: 32ch;
+        width: 28.5ch;
     }
 }
 
@@ -115,10 +115,10 @@
             width: 0ch;
         }
         50% {
-            width: 31.5ch;
+            width: 28.5ch;
         }
         100% {
-            width: 31.5ch;
+            width: 28.5ch;
         }
     }
 }
