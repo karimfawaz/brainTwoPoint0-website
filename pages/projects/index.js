@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import { projectsList } from '../../list'
-const Projects = () => {
+
+import allprojectsStyles from '../../styles/Allprojects.module.css'
+const projects = () => {
     return (
-        <div>
+        <div className={allprojectsStyles.projectsPage}>
+            <Link href="/">Go Back</Link>
             {
                 projectsList.length === 0 ?
                     <h4 className={projectStyles.text}>Coming Soon...</h4> :
@@ -13,4 +16,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default projects

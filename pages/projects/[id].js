@@ -1,5 +1,7 @@
 import { projectsList } from "../../list"
 
+import projectStyles from '../../styles/Project.module.css'
+
 export const getStaticPaths = async () => {
 
     const paths = projectsList.map(project => {
@@ -24,7 +26,7 @@ export const getStaticProps = async (context) => {
 
 const Project = ({ project }) => {
     return (
-        <div>
+        <div className={projectStyles.projectPage}>
             <h1>{project.name}</h1>
         </div>
     )
