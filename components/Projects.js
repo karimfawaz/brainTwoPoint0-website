@@ -20,6 +20,9 @@ const Projects = () => {
             controls.start('hidden');
         }
     }, [controls, inView]);
+
+    var index = projectsList.length - 5;
+    var myProjectsList = [projectsList[index + 1], projectsList[index + 2], projectsList[index + 3], projectsList[index + 4],]
     return (
         <div className={projectStyles.projectsSection} id="projects">
             <div className={projectStyles.sectionHeader}>
@@ -28,13 +31,15 @@ const Projects = () => {
             </div>
             <div className={projectStyles.container}>
                 <motion.div ref={ref} initial="hidden" animate={controls} variants={{
-                    hidden: { scale:0, opacity: 0 },
+                    hidden: { scale: 0, opacity: 0 },
                     visible: { scale: 1, opacity: 1, transition: { delay: .5 } }
                 }} className={projectStyles.projectsCards}>
                     {
-                        projectsList.length === 0 ?
+                        myProjectsList.length === 0 ?
                             <h4 className={projectStyles.text}>Coming Soon...</h4> :
-                            projectsList.map((project) => (
+
+                            myProjectsList.map((project) => (
+
                                 <Link key={project.name} href={"/projects/" + project.id}>
                                     <div className={projectStyles.card}>
                                         <img className={projectStyles.cardImg} src={project.logo} />

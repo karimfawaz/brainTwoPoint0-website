@@ -69,9 +69,7 @@
 }
 
 @media only screen and (max-width:700px) {
-
     .sectionHeader {
-        
         font-size: 3.5vw;
     }
     .sectionTitle {
@@ -79,7 +77,6 @@
         height: 5vw;
         font-size: 3.5vw;
     }
-
     .container {
         flex-direction: column;
         margin-top: 5vw;
@@ -94,17 +91,13 @@
     .cardImg {
         height: 17vw;
         width: 17vw;
-      
     }
     .cardTitle {
         padding-top: 4vw;
-
         font-size: 2.5vw;
     }
-
     .svg {
         height: 40vw;
         width: 40vw;
-        
     }
 }
