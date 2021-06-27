@@ -27,7 +27,10 @@ const Projects = () => {
                 <Link href="/projects">See All</Link>
             </div>
             <div className={projectStyles.container}>
-                <div className={projectStyles.projectsCards}>
+                <motion.div ref={ref} initial="hidden" animate={controls} variants={{
+                    hidden: { scale:0, opacity: 0 },
+                    visible: { scale: 1, opacity: 1, transition: { delay: .5 } }
+                }} className={projectStyles.projectsCards}>
                     {
                         projectsList.length === 0 ?
                             <h4 className={projectStyles.text}>Coming Soon...</h4> :
@@ -40,7 +43,7 @@ const Projects = () => {
                                 </Link>
                             ))}
 
-                </div>
+                </motion.div>
                 <motion.svg ref={ref} initial="hidden" animate={controls} variants={{
                     hidden: { x: 100, opacity: 0 },
                     visible: { x: 0, opacity: 1, transition: { delay: .5 } }
