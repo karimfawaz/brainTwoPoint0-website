@@ -14,7 +14,7 @@ const Splash = () => {
 
                 <motion.h1 initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: .2 }} className={splashStyles.companyName}> Brain 2.0</motion.h1>
 
-                <motion.h4 initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: .7 }} className={splashStyles.companySlogan}>Driven by Values, Powered by Intellect.</motion.h4>
+                <motion.h4 initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: .5 }} className={splashStyles.companySlogan}>Driven by Values, Powered by Intellect.</motion.h4>
             </div>
         </div>
     )

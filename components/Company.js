@@ -20,23 +20,23 @@ const Company = () => {
     return (
         <motion.div ref={ref} initial="hidden" animate={controls} variants={{
             hidden: { opacity: 0 },
-            visible: { opacity: 1, transition: { delay: .7 } }
+            visible: { opacity: 1, transition: { delay: .5 } }
         }} className={companyStyles.companySection}>
             <motion.h2 ref={ref} initial="hidden" animate={controls} variants={{
                 hidden: { x: -400, opacity: 0 },
-                visible: { x: 0, opacity: 1, transition: { delay: .7 } }
+                visible: { x: 0, opacity: 1, transition: { delay: .5 } }
             }} className={companyStyles.sloganUp}>Driven by Values</motion.h2>
             <div className={companyStyles.container}>
                 <h1 className={companyStyles.name}>BRAIN 2.</h1>
                 <motion.img ref={ref} initial="hidden" animate={controls} variants={{
                     hidden: { scale: 0 },
-                    visible: { scale: 1, transition: { delay: .7 } }
+                    visible: { scale: 1, transition: { delay: .5 } }
                 }}
                     className={companyStyles.logo} src="brain256.png" />
             </div>
             <motion.h2 ref={ref} initial="hidden" animate={controls} variants={{
                 hidden: { x: 400, opacity: 0 },
-                visible: { x: 0, opacity: 1, transition: { delay: .7 } }
+                visible: { x: 0, opacity: 1, transition: { delay: .5 } }
             }} className={companyStyles.sloganDown}>Powered by Intellect</motion.h2>
         </motion.div>
     )
