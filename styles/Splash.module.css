@@ -44,10 +44,10 @@
         width: 0ch;
     }
     50% {
-        width: 28.5ch;
+        width: 53vw;
     }
     100% {
-        width: 28.5ch;
+        width: 53vw;
     }
 }
 
@@ -110,15 +110,16 @@
         justify-content: space-evenly;
         flex-direction: column;
     }
-    @keyframes type {
-        0% {
-            width: 0ch;
-        }
-        50% {
-            width: 28.5ch;
-        }
-        100% {
-            width: 28.5ch;
-        }
+    
+@keyframes type {
+    0% {
+        width: 0ch;
     }
+    50% {
+        width: 70.5vw;
+    }
+    100% {
+        width: 70.5vw;
+    }
+}
 }
