@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import projectsList from './list'
+import { projectsList } from '../../list'
 const Projects = () => {
     return (
         <div>

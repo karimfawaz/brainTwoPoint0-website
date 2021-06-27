@@ -1,5 +1,5 @@
 
-const projectsList = [
+export const projectsList = [
     {
         id: 1,
         name: "Run! & Flappy Brain",
@@ -30,4 +30,3 @@ const projectsList = [
     }
 ]
 
-export default projectsList

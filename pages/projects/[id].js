@@ -1,4 +1,4 @@
-import projectsList from "./list"
+import { projectsList } from "../../list"
 
 export const getStaticPaths = async () => {
 

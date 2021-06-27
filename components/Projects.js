@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 
 import projectStyles from '../styles/Projects.module.css'
-import projectsList from '../pages/projects/list';
+import { projectsList } from '../list';
 
 const Projects = () => {
 
