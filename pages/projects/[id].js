@@ -1,5 +1,5 @@
 import { projectsList } from "../../list"
-
+import Head from 'next/head'
 import projectStyles from '../../styles/Project.module.css'
 
 export const getStaticPaths = async () => {
@@ -27,6 +27,12 @@ export const getStaticProps = async (context) => {
 const Project = ({ project }) => {
     return (
         <div className={projectStyles.projectPage}>
+            <Head>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
+                <title>{project.name}</title>
+            </Head>
             <h1>{project.name}</h1>
         </div>
     )

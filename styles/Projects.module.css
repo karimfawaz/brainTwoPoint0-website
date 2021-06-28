@@ -30,8 +30,6 @@
     display: grid;
     gap: 3vw;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    margin: auto;
 }
 
 .card {
