@@ -75,15 +75,15 @@
     }
     .projectLogo {
         border-radius: 2vw;
-        height: 20vw;
-        width: 20vw;
+        height: 23vw;
+        width: 23vw;
     }
     .projectName {
-        margin-top: 2vw;
-        font-size: 2.75vw;
+        margin-top: 1vw;
+        font-size: 3.33vw;
     }
     .projectShortdesc {
-        font-size: 2.3vw;
+        font-size: 2.75vw;
         padding-top: 1vw;
     }
 }
