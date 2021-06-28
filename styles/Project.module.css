@@ -1,5 +1,86 @@
-.projectPage{
+.projectPage {
     background-color: var(--one);
     height: 100vh;
     width: 100vw;
+    padding: 2vw;
+    
+}
+
+.back{
+    color: white;
+  
+}
+
+.nameLogo {
+    display: flex;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+}
+
+.projectLogo {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 2vw;
+}
+
+.nameDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 3vw;
+}
+
+.projectName {
+    color: var(--two);
+    font-size: 3.5vw;
+}
+
+.projectDesc {
+    color: var(--three);
+    font-style: italic;
+    font-size: 2vw;
+}
+
+.text{
+    width: 80vw;
+    height: 20vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    color: white;
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width:700px) {
+    .nameLogo {
+    margin-top: 3vw;
+    }
+    .projectLogo {
+        height: 25vw;
+        width: 25vw;
+        
+    }
+    
+   
+    .projectName {
+        color: var(--two);
+        font-size: 6.5vw;
+    }
+    
+    .projectDesc {
+        color: var(--three);
+        font-style: italic;
+        font-size: 4vw;
+    }
+    
+    .text{
+        width: 90vw;
+        height: 20vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 3vw;
+        color: white;
+        font-size: 3vw;
+    }
 }

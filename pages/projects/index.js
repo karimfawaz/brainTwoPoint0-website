@@ -30,7 +30,11 @@ const projects = () => {
                 <title>Brain 2.0 - Projects</title>
             </Head>
 
-            <Link className={allprojectsStyles.back} href="/">Go Back</Link>
+            <Link href='/projects/'>
+                <h4 className={allprojectsStyles.back}>
+                    Go Back
+                </h4>
+            </Link>
             <h1 className={allprojectsStyles.title}>All Projects</h1>
 
 
