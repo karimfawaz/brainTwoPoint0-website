@@ -63,7 +63,7 @@
 @media only screen and (max-width:850px) {
     .projectsPage {
         height: 100%;
-        padding: 4vw;
+
     }
     .projectsGrid {
         grid-template-columns: 1fr;
