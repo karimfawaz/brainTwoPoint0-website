@@ -79,6 +79,10 @@
         flex-direction: column;
         margin-top: 5vw;
     }
+    .projectsCards {
+        justify-content: center;
+        margin: auto;
+    }
     .card {
         padding-top: 2vw;
         background-color: var(--two);
