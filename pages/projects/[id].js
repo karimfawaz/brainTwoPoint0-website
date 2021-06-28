@@ -68,15 +68,22 @@ const Project = ({ project }) => {
                         hidden: { x: 30, opacity: 0 },
                         visible: { x: 0, opacity: 1, transition: { delay: 1.5 } }
                     }} className={projectStyles.projectDesc}>{project.shortDesc}</motion.h3>
+                    <motion.h3 ref={ref} initial="hidden" animate={controls} variants={{
+                        hidden: { scale: 0, opacity: 0 },
+                        visible: { scale: 1, opacity: 1, transition: { delay: 2 } }
+                    }} className={projectStyles.projectDate}>{project.date}</motion.h3>
                 </div>
 
             </div>
             <motion.article ref={ref} initial="hidden" animate={controls} variants={{
-                        hidden: { x: -30, opacity: 0 },
-                        visible: { x: 0, opacity: 1, transition: { delay: 2 } }
-                    }}  className={projectStyles.text}>
+                hidden: { x: -30, opacity: 0 },
+                visible: { x: 0, opacity: 1, transition: { delay: 2.5 } }
+            }} className={projectStyles.text}>
                 {project.text}
             </motion.article>
+            <div className={projectStyles.screenshotContainer}>
+                {project.screenshots.map((screenshot) => (<img className={projectStyles.screenshot} src={screenshot} />))}
+            </div>
 
         </div>
     )

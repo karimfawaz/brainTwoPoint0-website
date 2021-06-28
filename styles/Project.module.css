@@ -1,14 +1,12 @@
 .projectPage {
     background-color: var(--one);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     padding: 2vw;
-    
 }
 
-.back{
+.back {
     color: white;
-  
 }
 
 .nameLogo {
@@ -34,7 +32,6 @@
 .projectName {
     color: var(--two);
     font-size: 3.5vw;
-    
 }
 
 .projectDesc {
@@ -43,9 +40,13 @@
     font-size: 2vw;
 }
 
-.text{
+.projectDate {
+    color: var(--two);
+    font-size: 1.5vw;
+}
+
+.text {
     width: 80vw;
-    height: 20vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
     padding-left: 3vw;
@@ -53,29 +54,38 @@
     font-size: 1.5vw;
 }
 
+.screenshotContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.screenshot {
+    width: 18vw;
+    border-radius: 1vw;
+    margin: 1vw;
+}
+
 @media only screen and (max-width:700px) {
     .nameLogo {
-    margin-top: 3vw;
+        margin-top: 3vw;
     }
     .projectLogo {
         height: 25vw;
         width: 25vw;
-        
     }
-    
-   
     .projectName {
         color: var(--two);
         font-size: 5.5vw;
     }
-    
     .projectDesc {
         color: var(--three);
         font-style: italic;
         font-size: 4vw;
     }
-    
-    .text{
+    .projectDate {
+        font-size: 2.25vw;
+    }
+    .text {
         width: 90vw;
         height: 20vw;
         padding-top: 2vw;
@@ -83,5 +93,15 @@
         padding-left: 3vw;
         color: white;
         font-size: 3vw;
+    }
+    .screenshotContainer {
+        display: grid;
+        gap: 3vw;
+      
+    }
+    .screenshot {
+        width: 35vw;
+        border-radius: 1vw;
+        margin: 1vw;
     }
 }

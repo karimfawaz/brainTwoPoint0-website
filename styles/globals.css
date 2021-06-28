@@ -10,16 +10,6 @@ html, body {
     font-family: 'Electrolize', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    animation: display 5s forwards;
-}
-
-@keyframes display {
-    0% {
-        overflow-y: hidden;
-    }
-    99% {
-        overflow-y: hidden;
-    }
 }
 
 a {

@@ -6,7 +6,8 @@ export const projectsList = [
         date: "December 2017",
         logo: "/flappyrun.png",
         shortDesc: "How it started",
-        text: "hkjhkjhkjhkjh kjhkjhkjhk hkjhkjh kjhkjh kjh kjhkjh kjhkjh kjhkjh kjh \n jhgtjtjtuygjgytriuygjkhg hkjhkjhkjhkjh kjhkjhkjhk hkjhkjh kjhkjh kjh kjhkjh kjhkjh kjhkjh kjh \n jhgtjtjtuygjgytriuygjkhg hkjhkjhkjhkjh kjhkjhkjhk hkjhkjh kjhkjh kjh kjhkjh kjhkjh kjhkjh kjh \n jhgtjtjtuygjgytriuygjkhg hkjhkjhkjhkjh kjhkjhkjhk hkjhkjh kjhkjh kjh kjhkjh kjhkjh kjhkjh kjh \n jhgtjtjtuygjgytriuygjkhg hkjhkjhkjhkjh kjhkjhkjhk hkjhkjh kjhkjh kjh kjhkjh kjhkjh kjhkjh kjh \n jhgtjtjtuygjgytriuygjkhg ",
+        text: "Our Software Development journey began in 2017 with 2D arcade games.",
+        screenshots: ["/runsc.jpg", "/flappyrun.png", "/flappysc.jpg"]
 
     },
     {
@@ -15,7 +16,7 @@ export const projectsList = [
         date: "September 2019",
         logo: "/oneinstock.png",
         shortDesc: "A new way to shop online",
-        text: "",
+        text: "In 2019",
     },
     {
         id: 3,
@@ -24,6 +25,7 @@ export const projectsList = [
         logo: "/pikasso.png",
         shortDesc: "Helping small Businesses one app at a time",
         text: "",
+        screenshots:["/pikassoappointsc.png","/pikassohomesc.png","/pikassoalbumsc.png"]
     },
     {
         id: 4,
