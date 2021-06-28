@@ -17,6 +17,8 @@ export const projectsList = [
         logo: "/oneinstock.png",
         shortDesc: "A new way to shop online",
         text: "In 2019",
+        screenshots: ["/oneinstock.png", "/oneinstock.png", "/oneinstock.png"]
+
     },
     {
         id: 3,
@@ -25,7 +27,7 @@ export const projectsList = [
         logo: "/pikasso.png",
         shortDesc: "Helping small Businesses one app at a time",
         text: "",
-        screenshots:["/pikassoappointsc.png","/pikassohomesc.png","/pikassoalbumsc.png"]
+        screenshots: ["/pikassoappointsc.png", "/pikassohomesc.png", "/pikassoalbumsc.png"]
     },
     {
         id: 4,
@@ -34,6 +36,7 @@ export const projectsList = [
         logo: "/brain256.png",
         shortDesc: "Brain 2.0 - Online",
         text: "",
+        screenshots: ["/brain256.png", "/brain256.png", "/brain256.png"]
 
 
 
