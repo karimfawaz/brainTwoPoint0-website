@@ -30,7 +30,7 @@ const projects = () => {
                 <title>Brain 2.0 - Projects</title>
             </Head>
 
-            <Link href='/projects/'>
+            <Link href='/'>
                 <h4 className={allprojectsStyles.back}>
                     Go Back
                 </h4>
