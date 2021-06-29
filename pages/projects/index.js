@@ -48,12 +48,12 @@ const projects = () => {
 
                             <Link key={project.id} href={"/projects/" + project.id}>
                                 <motion.div ref={ref} initial="hidden" animate={controls} variants={{
-                                    hidden: { x: 30, opacity: 0 },
-                                    visible: { x: 0, opacity: 1, transition: { delay: .5 } }
+                                    hidden: { scale: 0, opacity: 0 },
+                                    visible: { scale: 1, opacity: 1, transition: { delay: .5 } }
                                 }} className={allprojectsStyles.projectCard}>
                                     <img src={project.logo} className={allprojectsStyles.projectLogo} />
                                     <h3 className={allprojectsStyles.projectName}>{project.name}</h3>
-                                    <p className={allprojectsStyles.projectShortdesc}>{project.shortDesc}</p>
+                                    <p className={allprojectsStyles.projectDate}>{project.date}</p>
                                 </motion.div>
                             </Link>
                         ))}

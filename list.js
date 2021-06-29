@@ -7,8 +7,8 @@ export const projectsList = [
         logo: "/flappyrun.png",
         shortDesc: "How it started",
         text: "Our Software Development journey began in 2017 with 2D arcade games.",
-        screenshots: ["/runsc.jpg", "/flappyrun.png", "/flappysc.jpg"]
-
+        screenshots: ["/runsc.jpg", "/flappyrun.png", "/flappysc.jpg"],
+        links: []
     },
     {
         id: 2,
@@ -17,7 +17,9 @@ export const projectsList = [
         logo: "/oneinstock.png",
         shortDesc: "A new way to shop online",
         text: "In 2019",
-        screenshots: ["/oneinstock.png", "/oneinstock.png", "/oneinstock.png"]
+        screenshots: [],
+        links: []
+
 
     },
     {
@@ -27,7 +29,8 @@ export const projectsList = [
         logo: "/pikasso.png",
         shortDesc: "Helping small Businesses one app at a time",
         text: "",
-        screenshots: ["/pikassoappointsc.png", "/pikassohomesc.png", "/pikassoalbumsc.png"]
+        screenshots: ["/pikassoappointsc.png", "/pikassohomesc.png", "/pikassoalbumsc.png"],
+        links: []
     },
     {
         id: 4,
@@ -36,7 +39,8 @@ export const projectsList = [
         logo: "/brain256.png",
         shortDesc: "Brain 2.0 - Online",
         text: "",
-        screenshots: ["/brain256.png", "/brain256.png", "/brain256.png"]
+        screenshots: ["/brain256.png", "/brain256.png", "/brain256.png"],
+        links: []
 
 
 
