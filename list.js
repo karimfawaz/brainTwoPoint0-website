@@ -7,7 +7,7 @@ export const projectsList = [
         logo: "/flappyrun.png",
         shortDesc: "How it started",
         text: "Our Software Development journey began in 2017 with 2D arcade games.",
-        screenshots: ["/runsc.jpg", "/flappyrun.png", "/flappysc.jpg"],
+        screenshots: ["/runsc.jpg", "/flappysc.jpg"],
         links: []
     },
     {
@@ -39,7 +39,7 @@ export const projectsList = [
         logo: "/brain256.png",
         shortDesc: "Brain 2.0 - Online",
         text: "",
-        screenshots: ["/brain256.png", "/brain256.png", "/brain256.png"],
+        screenshots: [],
         links: []
 
 

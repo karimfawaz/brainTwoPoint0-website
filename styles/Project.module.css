@@ -1,7 +1,5 @@
 .projectPage {
     background-color: var(--one);
-   
-    width: 100vw;
     padding: 2vw;
 }
 
@@ -100,7 +98,6 @@
     .screenshotContainer {
         display: grid;
         gap: 3vw;
-      
     }
     .screenshot {
         width: 35vw;
