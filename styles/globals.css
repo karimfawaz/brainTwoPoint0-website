@@ -10,6 +10,7 @@ html, body {
     font-family: 'Electrolize', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    background-color: var(--one);
 }
 
 a {

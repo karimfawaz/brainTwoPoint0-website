@@ -1,6 +1,6 @@
 .projectsPage {
     background-color: var(--one);
-    height: 140vh;
+  
     width: 100vw;
     display: flex;
     flex-direction: column;
