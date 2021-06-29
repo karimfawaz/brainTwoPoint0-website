@@ -29,7 +29,6 @@
 .container {
     display: flex;
     justify-content: center;
-   
 }
 
 .logo {
@@ -37,7 +36,6 @@
     width: 13vw;
     align-self: center;
     animation: display 5s 1.75s forwards;
-    
 }
 
 .name {
@@ -52,38 +50,21 @@
 @keyframes display {
     0% {
         opacity: 0;
-        
-        
     }
     90% {
         opacity: 0;
-        
-        
     }
-    
     100% {
         opacity: 1;
-        
     }
 }
 
 @media only screen and (max-width:650px) {
-    .sloganUp {
-        font-size: 4vw;
-        width: 35vw;
-        height: 5vw;
-    }
-    .sloganDown {
-        font-size: 4vw;
-        width: 40vw;
-        height: 5vw;
-    }
     .logo {
         height: 13.5vw;
         width: 13.5vw;
     }
     .name {
-        
         margin-top: 2vw;
         margin-bottom: 2vw;
     }
