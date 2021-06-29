@@ -35,7 +35,7 @@ const Nav = () => {
             > Projects</Link>
             <Link className={navStyles.navItem}
                 activeClass="active"
-                to="contact"
+                to="footer"
                 spy={true}
                 smooth={true}
                 offset={0}
