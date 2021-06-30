@@ -6,7 +6,7 @@ export const projectsList = [
         date: "December 2017",
         logo: "/flappyrun.png",
         shortDesc: "How it started",
-        text: "Our Software Development journey began in 2017 with 2D arcade games.",
+        text: "“Having Fun is the Best Way to Learn” (Albert Einstein). Our Software Development journey began in 2017 with 2D arcade games. Brain 2.0 made use of Unity 2D's engine to build an enldess runner game called RUN! and a flappy bird clone called Flappy Brain. Both apps were available on the Google Play Store from 2017 until 2019.",
         screenshots: ["/runsc.jpg", "/flappysc.jpg"],
         links: []
     },
