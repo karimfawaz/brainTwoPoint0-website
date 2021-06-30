@@ -38,7 +38,7 @@ export const projectsList = [
         date: "July 2021",
         logo: "/brain256.png",
         shortDesc: "Brain 2.0 - Online",
-        text: "",
+        text: "In 2021, Brain 2.0 has launched its first official website to showcase our projects and initiatives. This website is intended to inform our users and customers of our upcoming events and project launches. Brain 2.0 has added Web Development services to our technological capabilities and can now offer many solutions to our users and our potential freelancing clients' needs. We will keep seeking to improve our knowledge in the software domain and will keep trying to make your lives easier and more enjoyable. More projects coming soon !",
         screenshots: [],
         links: []
 
