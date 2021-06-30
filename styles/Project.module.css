@@ -53,8 +53,11 @@
 }
 
 .screenshotContainer {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40%;
+    margin-left: 15%;
+    /* margin: auto; */
 }
 
 .screenshot {
@@ -88,7 +91,6 @@
     }
     .text {
         width: 90vw;
-        height: 20vw;
         padding-top: 2vw;
         padding-bottom: 2vw;
         padding-left: 3vw;
@@ -96,8 +98,10 @@
         font-size: 3vw;
     }
     .screenshotContainer {
-        display: grid;
         gap: 3vw;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+
     }
     .screenshot {
         width: 35vw;
