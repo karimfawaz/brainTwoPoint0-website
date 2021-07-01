@@ -11,13 +11,51 @@
     font-size: 2.5vw;
 }
 
-.form{
+.formContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form {
     display: flex;
     flex-direction: column;
     width: 40%;
 }
-.formLabel{
+
+.formLabel {
     font-size: 1.5vw;
+    margin-left: 2vw;
+}
+
+.formInput {
+    border-radius: 2vw;
+    padding: 1vw;
+    margin: 1vw;
+}
+
+.formTxtArea {
+    border-radius: 2vw;
+    padding: 1vw;
+    margin: 1vw;
+    width: 100%;
+    resize: none;
+}
+
+.submitButton {
+    border-radius: 2vw;
+    padding: 1vw;
+    margin: 1vw;
+    color: var(--three);
+    background-color: var(--one);
+    width: 30%;
+    align-self: center;
+    font-size: 1.5vw;
+}
+
+.svg {
+    width: 30vw;
+    height: 30vw;
+    align-self: flex-end;
 }
 
 @media only screen and (max-width:700px) {
@@ -25,5 +63,30 @@
         width: 25vw;
         height: 5vw;
         font-size: 3.5vw;
+    }
+    .formContainer {
+        margin-top: 3vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 75%;
+    }
+    .formLabel {
+        font-size: 3vw;
+        margin-left: 2vw;
+    }
+    .submitButton {
+        align-self: center;
+        font-size: 2.5vw;
+    }
+    .svg {
+        width: 30vw;
+        height: 30vw;
+        align-self: center;
     }
 }
