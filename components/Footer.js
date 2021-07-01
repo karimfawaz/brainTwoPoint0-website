@@ -24,8 +24,6 @@ const Footer = () => {
             visible: { x: 0, opacity: 1, transition: { delay: .5 } }
         }} className={footerStyles.footer}>
 
-            <h4 className={footerStyles.contactLink}>Contact Options:</h4>
-
             <a target="_blank" href="https://instagram.com/braintwopoint0">
 
                 <h4 className={footerStyles.contactLink}>@BrainTwoPoint0</h4>
