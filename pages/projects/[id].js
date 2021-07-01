@@ -82,7 +82,7 @@ const Project = ({ project }) => {
                 {project.text}
             </motion.article>
             <div className={projectStyles.screenshotContainer}>
-                {project.screenshots.map((screenshot) => (<img className={projectStyles.screenshot} src={screenshot} />))}
+                {project.screenshots.map((screenshot) => (<img key={project.screenshot} className={projectStyles.screenshot} src={screenshot} />))}
             </div>
 
         </div>
