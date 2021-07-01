@@ -1,7 +1,7 @@
 import contactStyles from '../styles/Contact.module.css'
 const Contact = () => {
     return (
-        <div className={contactStyles.contactSection} >
+        <div className={contactStyles.contactSection} id="contact" >
             <h1 className={contactStyles.sectionTitle}>Contact</h1>
 
             <div className={contactStyles.formContainer}>
