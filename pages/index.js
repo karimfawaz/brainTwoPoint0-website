@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Splash from '../components/Splash'
 import Nav from '../components/Nav'
 import Company from '../components/Company'
 import About from '../components/About'
@@ -19,7 +18,8 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
       </Head>
-      <Splash />
+
+
       <Nav />
       <Company />
       <About />
