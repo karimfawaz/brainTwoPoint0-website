@@ -18,7 +18,10 @@ const Company = () => {
     }, [controls, inView]);
 
     return (
-        <div className={companyStyles.companySection}>
+        <motion.div ref={ref} initial="hidden" animate={controls} variants={{
+            hidden: { opacity: 1,},
+            visible: { opacity: 1, transition: { delay: .5 } }
+        }} className={companyStyles.companySection}>
             <motion.h2 ref={ref} initial="hidden" animate={controls} variants={{
                 hidden: { x: -400, opacity: 0 },
                 visible: { x: 0, opacity: 1, transition: { delay: .5 } }
@@ -38,7 +41,7 @@ const Company = () => {
                 hidden: { x: 400, opacity: 0 },
                 visible: { x: 0, opacity: 1, transition: { delay: .5 } }
             }} className={companyStyles.sloganDown}>Powered by Intellect</motion.h2>
-        </div>
+        </motion.div>
     )
 }
 
