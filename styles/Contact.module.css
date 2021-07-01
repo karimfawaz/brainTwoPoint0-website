@@ -1,0 +1,29 @@
+.contactSection {
+    background-color: var(--three);
+    padding: 3vw;
+}
+
+.sectionTitle {
+    width: 20vw;
+    height: 3.5vw;
+    text-align: center;
+    color: black;
+    font-size: 2.5vw;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.formLabel{
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width:700px) {
+    .sectionTitle {
+        width: 25vw;
+        height: 5vw;
+        font-size: 3.5vw;
+    }
+}
