@@ -28,10 +28,11 @@
      color: white;
  }
 
- .svg {
+ .img {
      width: 25vw;
      height: 25vw;
      align-self: center;
+     border-radius: 50%;
  }
 
  .quote {
@@ -58,18 +59,15 @@
          width: 85vw;
          padding: 2vw;
          line-height: 4vw;
-         
      }
      .quote {
          font-size: 3.5vw;
          line-height: 8vw;
      }
-     .svg {
-         width: 33vw;
-         height: 33vw;
-         align-self: flex-end;
-         display: block;
-         margin: auto;
-         justify-self: flex-start;
+     .img {
+         width: 30vw;
+         height: 30vw;
+         margin-top: 5vw;
+         align-self: center;
      }
  }
