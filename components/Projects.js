@@ -30,10 +30,7 @@ const Projects = () => {
                 <Link href="/projects">See All</Link>
             </div>
             <div className={projectStyles.container}>
-                <motion.div ref={ref} initial="hidden" animate={controls} variants={{
-                    hidden: { scale: 0, opacity: 0 },
-                    visible: { scale: 1, opacity: 1, transition: { delay: .5 } }
-                }} className={projectStyles.projectsCards}>
+                <div className={projectStyles.projectsCards}>
                     {
                         myProjectsList.length === 0 ?
                             <h4 className={projectStyles.text}>Coming Soon...</h4> :
@@ -41,14 +38,17 @@ const Projects = () => {
                             myProjectsList.map((project) => (
 
                                 <Link key={project.name} href={"/projects/" + project.id}>
-                                    <div className={projectStyles.card}>
+                                    <motion.div ref={ref} initial="hidden" animate={controls} variants={{
+                                        hidden: { scale: 0, opacity: 0 },
+                                        visible: { scale: 1, opacity: 1, transition: { delay: project.id/5 } }
+                                    }} className={projectStyles.card}>
                                         <img className={projectStyles.cardImg} src={project.logo} />
                                         <h2 className={projectStyles.cardTitle}>{project.name}</h2>
-                                    </div>
+                                    </motion.div>
                                 </Link>
                             ))}
 
-                </motion.div>
+                </div>
                 <motion.svg ref={ref} initial="hidden" animate={controls} variants={{
                     hidden: { x: 100, opacity: 0 },
                     visible: { x: 0, opacity: 1, transition: { delay: 1 } }

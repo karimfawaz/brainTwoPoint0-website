@@ -27,12 +27,12 @@ const About = () => {
                     hidden: { scale: 0 },
                     visible: { scale: 1, transition: { delay: .5 } }
                 }} className={aboutStyles.text}>
-                    Brain 2.0 is a Software Development Firm. Founded in 2017, we aim to build efficient software solutions to help our users and clients with their desired activities. As the name suggests, Brain 2.0's purpose is to elevate the way you live without compromising the simplicity needed to make our products attractive to our potential users. We try to make using our software easy while executing complex processes in the background. We are continuously working on projects and some of them will be ready for production soon. We also offer freelancing services for any interested startup teams.<br /> <span className={aboutStyles.quote}>"Your Vision, Our Future."</span>
+                    Brain 2.0 is a Software Development Firm. Founded in 2017, we aim to build efficient software solutions to help our clients with their desired activities. Brain 2.0's purpose is to elevate the way you live without compromising the simplicity needed to make our products attractive to our potential users. We try to make using our software easy while executing complex processes in the background. We are continuously working on projects and some of them will be ready for production soon. We also offer freelancing services for any interested startup teams.<br /> <span className={aboutStyles.quote}>"Your Vision, Our Future."</span>
                 </motion.article>
 
                 <motion.img ref={ref} initial="hidden" animate={controls} variants={{
                     hidden: { x: 100, rotate: 0, opacity: 0 },
-                    visible: { x: 0, rotate: [0, 2, -4, 2, 0], opacity: 1, transition: { delay: 1 } }
+                    visible: { x: 0, rotate: -360, opacity: 1, transition: { delay: 1,duration:1 } }
                 }} className={aboutStyles.img} src="brainwhite.png" />
             </div>
 

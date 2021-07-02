@@ -39,10 +39,7 @@ const projects = () => {
 
 
 
-            <motion.div ref={ref} initial="hidden" animate={controls} variants={{
-                hidden: { scale: 0, opacity: 0 },
-                visible: { scale: 1, opacity: 1, transition: { delay: .5 } }
-            }} className={allprojectsStyles.projectsGrid}>
+            <div className={allprojectsStyles.projectsGrid}>
 
                 {
                     projectsList.length === 0 ?
@@ -50,14 +47,17 @@ const projects = () => {
                         projectsList.map((project) => (
 
                             <Link key={project.id} href={"/projects/" + project.id}>
-                                <div className={allprojectsStyles.projectCard}>
+                                <motion.div ref={ref} initial="hidden" animate={controls} variants={{
+                hidden: { scale: 0, opacity: 0 },
+                visible: { scale: 1, opacity: 1, transition: { delay: project.id/4 } }
+            }}  className={allprojectsStyles.projectCard}>
                                     <img src={project.logo} className={allprojectsStyles.projectLogo} />
                                     <h3 className={allprojectsStyles.projectName}>{project.name}</h3>
                                     <p className={allprojectsStyles.projectDate}>{project.date}</p>
-                                </div>
+                                </motion.div>
                             </Link>
                         ))}
-            </motion.div>
+            </div>
         </div>
     )
 }

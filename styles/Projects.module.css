@@ -33,31 +33,31 @@
 }
 
 .card {
-    padding-top: 2vw;
-    background-color: var(--two);
-    height: 18vw;
-    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0.25vw;
+    padding-bottom: 1.5vw;
+    background-color: var(--one);
+    height: 15vw;
+    width: 15vw;
     border-radius: 3vw;
+    border: .3vw solid white;
+
 }
 
 .cardImg {
     border-radius: 3vw;
-    height: 10vw;
-    width: 10vw;
+    height: 9vw;
+    width: 9vw;
     display: block;
     margin: auto;
 }
 
 .cardTitle {
-    padding-top: 1.5vw;
     text-align: center;
-    font-size: 1.5vw;
-}
-
-.text {
+    font-size: 1.25vw;
     color: white;
-    align-self: center;
-    font-size: 5vw;
 }
 
 .svg {
@@ -84,19 +84,15 @@
         margin: auto;
     }
     .card {
-        padding-top: 2vw;
-        background-color: var(--two);
-        height: 30vw;
-        width: 30vw;
-        border-radius: 3vw;
+        height: 25vw;
+        width: 25vw;
     }
     .cardImg {
         height: 17vw;
         width: 17vw;
     }
     .cardTitle {
-        padding-top: 4vw;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
     .svg {
         height: 40vw;

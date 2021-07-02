@@ -25,6 +25,7 @@
 .formLabel {
     font-size: 1.5vw;
     margin-left: 2vw;
+    font-weight: bold;
 }
 
 .formInput {
@@ -45,11 +46,13 @@
     border-radius: 2vw;
     padding: 1vw;
     margin: 1vw;
-    color: var(--three);
+    color: white;
     background-color: var(--one);
     width: 30%;
     align-self: center;
     font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .svg {

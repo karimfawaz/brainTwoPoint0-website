@@ -10,6 +10,7 @@
 
 .back {
     color: white;
+    cursor: pointer;
 }
 
 .title {
@@ -19,7 +20,7 @@
 .projectsGrid {
     margin-top: 5vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     align-self: center;
     gap: 5vw;
 }
