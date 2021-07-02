@@ -135,6 +135,7 @@
         box-shadow: -0.5vw 0 1vw #000;
         display: flex;
         justify-content: space-evenly;
+        border: 0.5vw solid white;
     
     }
     .card:hover~.card {
