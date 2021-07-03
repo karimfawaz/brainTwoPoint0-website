@@ -36,6 +36,7 @@
 
 .formTxtArea {
     border-radius: 2vw;
+    font-size: 1.2vw;
     padding: 1vw;
     margin: 1vw;
     width: 100%;
@@ -92,4 +93,9 @@
         height: 40vw;
         align-self: center;
     }
+
+    .formTxtArea {
+        font-size: 2vw;
+    }
+    
 }

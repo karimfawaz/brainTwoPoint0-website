@@ -32,7 +32,7 @@ const About = () => {
 
                 <motion.img ref={ref} initial="hidden" animate={controls} variants={{
                     hidden: { x: 150, rotate: 0, opacity: 0 },
-                    visible: { x: 0, rotate: -360, opacity: 1, transition: { delay: 1, duration: 1 } }
+                    visible: { x: 0, rotate: -360, opacity: 1, transition: { delay: .7, duration: 1 } }
                 }} className={aboutStyles.img} src="brainwhite.png" />
             </div>
 
