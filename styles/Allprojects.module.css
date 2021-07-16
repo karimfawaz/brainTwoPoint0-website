@@ -32,6 +32,8 @@
     background-color: var(--three);
     border-radius: 1vw;
     padding-top: 1vw;
+    cursor: pointer;
+
 }
 
 .projectLogo {
