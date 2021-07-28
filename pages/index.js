@@ -31,6 +31,10 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
       
       <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+
+      <link rel="canonical" href="http://www.braintwopoint0.company/" />
+
+      <meta property="og:site_name" content="Brain 2.0" />
       </Head>
 
 
