@@ -13,17 +13,15 @@ export default function Home() {
     <div  >
 
       <Head>
-        <title>Brain 2.0 - Driven by Values, Powered by Intellect.</title>
+        <title>BrainTwoPoint0</title>
         <meta name="description" content="Brain 2.0's purpose is to develop efficient software solutions to help our clients with their desired activities." />
 
-        <meta name="keywords" content="Brain 2.0, Lebanon, CSS, HTML, JS, BrainTwoPoint0, braintwopoint0, brain, Brain, brain 20, braintwopointO, Flutter, Beirut, Freelancing, Projects, Development, Web Development, Web, Mobile, Android, Coding" />
+        <meta name="keywords" content="BrainTwoPoint0, Brain 2.0, Lebanon, CSS, HTML, JS, BrainTwoPoint0, braintwopoint0, brain, Brain, brain 20, braintwopointO, Flutter, Beirut, Freelancing, Projects, Development, Web Development, Web, Mobile, Android, Coding" />
 
 
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-
-        <meta name="author" content="Karim Fawaz" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +32,7 @@ export default function Home() {
 
       <link rel="canonical" href="http://www.braintwopoint0.company/" />
 
-      <meta property="og:site_name" content="Brain 2.0" />
+      <meta property="og:site_name" content="BrainTwoPoint0" />
       </Head>
 
 
