@@ -30,7 +30,7 @@ export default function Home() {
       
       <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 
-      <link rel="canonical" href="http://www.braintwopoint0.company/" />
+      <link rel="canonical" href="https://www.braintwopoint0.company/" />
 
       <meta property="og:site_name" content="BrainTwoPoint0" />
       </Head>
