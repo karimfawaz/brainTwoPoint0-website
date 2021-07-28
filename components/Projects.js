@@ -42,7 +42,7 @@ const Projects = () => {
                                         hidden: { scale: 0, opacity: 0 },
                                         visible: { scale: 1, opacity: 1, transition: { delay: project.id/5 } }
                                     }} className={projectStyles.card}>
-                                        <img className={projectStyles.cardImg} src={project.logo} />
+                                        <img className={projectStyles.cardImg} src={project.logo} alt="Brain 2.0 - Project Logo" />
                                         <h2 className={projectStyles.cardTitle}>{project.name}</h2>
                                     </motion.div>
                                 </Link>

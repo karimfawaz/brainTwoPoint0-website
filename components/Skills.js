@@ -61,7 +61,7 @@ const Skills = () => {
                 }} className={cardStyles.cardList}>
 
                     {skillsList.map((skillCard) => (<article key={skillsList.name} className={cardStyles.card}>
-                        <img src={skillCard.img} className={cardStyles.skillImg} />
+                        <img src={skillCard.img} className={cardStyles.skillImg} alt="Brain 2.0 - Service" />
                         <header className={cardStyles.cardHeader}>
 
                             <h2>{skillCard.name}</h2>

@@ -51,7 +51,7 @@ const projects = () => {
 
                             <Link key={project.id} href={"/projects/" + project.id}>
                                 <div className={allprojectsStyles.projectCard}>
-                                    <img src={project.logo} className={allprojectsStyles.projectLogo} />
+                                    <img src={project.logo} className={allprojectsStyles.projectLogo} alt="Brain 2.0 - Project Logo"/>
                                     <h3 className={allprojectsStyles.projectName}>{project.name}</h3>
                                     <p className={allprojectsStyles.projectDate}>{project.date}</p>
                                 </div>
