@@ -15,7 +15,7 @@ const skillsList = [
 
     {
         name: "Java & Kotlin",
-        description: "Java and Kotlin are the languages use for Native Android application development. Brain 2.0 mainly uses Kotlin in Android Studio to build applications prioritising navive performance on devices.",
+        description: "Java and Kotlin are the languages use for Native Android application development. Brain 2.0 mainly uses Kotlin in Android Studio to build applications prioritising native performance on devices.",
         img: "kotlinjava.png"
 
 
