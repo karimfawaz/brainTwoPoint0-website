@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-grey: #231F20;
+  --black: #101010;
+  --teal: #B8CCB8;
+  --light: #EBF2EB;
+}
+
+
+
+body {
+  background: #231F20;
+}
