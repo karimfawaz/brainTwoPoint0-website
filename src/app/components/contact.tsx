@@ -33,7 +33,7 @@ export default function Contact() {
 
 
 
-                    <div className="flex flex-col md:flex-row justify-between mt-6 space-y-4 md:space-y-0 md:space-x-4">
+                    <div className="hidden md:block flex flex-col md:flex-row justify-between mt-6 space-y-4 md:space-y-0 md:space-x-4">
 
                         <div className="w-full md:w-1/2">
                             <label htmlFor="companyName" className="text-[var(--light)] font-light mb-4 ">
