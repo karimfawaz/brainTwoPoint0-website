@@ -3,7 +3,8 @@ import { PT_Sans_Caption } from 'next/font/google'
 import './globals.css'
 import Navbar from './common/navbar'
 
-const PTsans = PT_Sans_Caption({ weight: "400", subsets: ['latin'] })
+
+const PTsans = PT_Sans_Caption({ weight: ["400", "700"], subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Brain 2.0',
