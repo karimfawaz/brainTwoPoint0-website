@@ -8,7 +8,7 @@ export default function Contact() {
             </div>
             <div className="flex flex-col justify-center items-start md:items-center w-full h-full p-8 md:p-20">
                 <h1 className="text-[var(--light)] md:text-5xl text-3xl">LET US KNOW</h1>
-                <form className="flex flex-col md:w-full min-[2000px]:p-0 min-[2000px]:w-auto" data-netlify="true" name="contact" method="POST" action="/">
+                <form className="flex h-full flex-col md:w-full min-[2000px]:p-0 min-[2000px]:w-auto" data-netlify="true" name="contact" method="POST" action="/">
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="flex flex-col md:flex-row justify-between mt-4 space-y-4 md:space-y-0 md:space-x-4">
                         <div className="w-full md:w-1/2">
