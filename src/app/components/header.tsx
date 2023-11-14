@@ -4,7 +4,7 @@ import Navbar from '../common/navbar';
 
 export default function Header() {
     return (
-        <section className="relative h-screen w-full snap-center flex flex-col items-center justify-center">
+        <section className="relative h-full w-full snap-center flex flex-col items-center justify-center">
             <Navbar />
             <img src="/B2.0-textlogo.png" className="md:w-1/2 w-4/5" alt="Logo" />
             <p className="text-[var(--light)] mt-4 text-sm md:text-5xl">DRIVEN BY VALUES, POWERED BY INTELLECT</p>
