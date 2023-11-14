@@ -25,7 +25,6 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className={PTsans.className}>
-        <Navbar />
         {children}
       </body>
     </html>
