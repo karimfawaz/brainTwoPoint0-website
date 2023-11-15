@@ -8,7 +8,7 @@ export default function Contact() {
                 <h1 className="font-bold text-8xl md:text-9xl text-[var(--teal)] rotate-90 ">CONTACT<span className="font-[100] inter-font">US</span></h1>
             </div>
             <div className="w-full flex flex-col items-center">
-                <h1 className="text-[var(--light)] md:text-5xl text-3xl hidden md:block">LET US KNOW</h1>
+                <h1 className="text-[var(--light)] md:text-6xl text-3xl hidden md:block md:mb-6">LET US KNOW</h1>
                 <Form />
             </div>
         </section>
