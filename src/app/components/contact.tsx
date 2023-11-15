@@ -3,7 +3,7 @@ import Form from './form'
 
 export default function Contact() {
     return (
-        <section className="min-h-screen snap-start flex flex-row justify-start items-center">
+        <section className="h-screen snap-center flex flex-row justify-start items-center">
             <div className="flex flex-col justify-center items-center h-full w-1/5 md:w-40">
                 <h1 className="font-bold text-8xl md:text-9xl text-[var(--teal)] rotate-90 ">CONTACT<span className="font-[100] inter-font">US</span></h1>
             </div>
