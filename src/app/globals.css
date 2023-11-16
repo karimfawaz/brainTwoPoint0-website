@@ -30,3 +30,10 @@ body {
 .inter-font {
   font-family: 'Inter', sans-serif;
 }
+
+/* @supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: 100vh;
+    max-height: -webkit-fill-available !important;
+  }
+} */
