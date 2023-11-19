@@ -2,10 +2,11 @@ import React from 'react'
 import Form from './form'
 
 export default function Contact() {
+
     return (
         <section className="h-full snap-center flex flex-row justify-start items-center">
             <div className="flex flex-col justify-center items-center h-full w-1/5 md:w-40">
-                <h1 className="font-bold text-8xl md:text-9xl text-[var(--teal)] rotate-90 ">CONTACT<span className="font-[100] inter-font">US</span></h1>
+                <h1 className="font-bold text-7xl md:text-9xl text-[var(--teal)] rotate-90 ">CONTACT<span className="font-[100] inter-font">US</span></h1>
             </div>
             <div className="w-full flex flex-col items-center">
                 <h1 className="text-[var(--light)] md:text-6xl text-3xl hidden md:block md:mb-6">LET US KNOW</h1>
