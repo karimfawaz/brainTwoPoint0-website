@@ -4,8 +4,8 @@ export default function Form() {
     return (
         <form className="w-3/4 md:w-3/5" data-netlify="true" name="contact" method="POST" action="/">
             <input type="hidden" name="form-name" value="contact" />
-            <div className="">
-                <div className="mb-2 md:mb-4">
+            <div className="md:flex md:flex-row w-full md:justify-between md:space-x-4">
+                <div className="mb-2 md:mb-4 md:w-1/2">
                     <label htmlFor="firstName" className="text-[var(--light)] font-light ">
                         First Name:
                     </label>
@@ -17,7 +17,7 @@ export default function Form() {
                     />
                 </div>
 
-                <div className="mb-2 md:mb-4">
+                <div className="mb-2 md:mb-4 md:w-1/2">
                     <label htmlFor="lastName" className="text-[var(--light)] font-light ">
                         Last Name:
                     </label>
@@ -27,9 +27,9 @@ export default function Form() {
 
 
 
-            <div className="">
+            <div className="md:flex md:flex-row w-full md:justify-between md:space-x-4">
 
-                <div className="mb-2 md:mb-4">
+                <div className="mb-2 md:mb-4 md:w-1/2">
                     <label htmlFor="companyName" className="text-[var(--light)] font-light ">
                         Company Name:
                     </label>
@@ -37,7 +37,7 @@ export default function Form() {
                 </div>
 
 
-                <div className="hidden md:block mb-2 md:mb-4">
+                <div className="hidden md:w-1/2 md:block mb-2 md:mb-4">
                     <label htmlFor="companyWebsite" className="text-[var(--light)] font-light ">
                         Company Website (optional):
                     </label>
@@ -50,8 +50,8 @@ export default function Form() {
             </div>
 
 
-            <div className="">
-                <div className="mb-2 md:mb-4">
+            <div className="md:flex md:flex-row w-full md:justify-between md:space-x-4">
+                <div className="mb-2 md:mb-4 md:w-1/2">
                     <label htmlFor="email" className="text-[var(--light)] font-light ">
                         E-Mail Address:
                     </label>
@@ -64,7 +64,7 @@ export default function Form() {
                 </div>
 
 
-                <div className="hidden md:block mb-2 md:mb-4">
+                <div className="hidden md:block mb-2 md:mb- md:w-1/2">
                     <label htmlFor="mobile" className="text-[var(--light)] font-light ">
                         Mobile Number (optional):
                     </label>
