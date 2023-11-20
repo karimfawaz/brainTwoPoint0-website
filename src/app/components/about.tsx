@@ -9,7 +9,7 @@ export default function About() {
                 <h1 className="font-bold text-7xl md:text-9xl text-white rotate-90 ">ABOUT<span className="font-[100] inter-font">US</span></h1>
             </div>
             <div className="w-full h-full flex flex-col items-center p-4 md:p-12">
-                <h1 className="font-bold text-3xl md:text-9xl text-[var(--light)]">BRAIN 2.<span className="font-[100] inter-font">"OOH"</span></h1>
+                <h1 className="font-bold text-3xl md:text-9xl text-[var(--light)]">BRAIN 2.<span className="font-[100] inter-font">&quot;OOH&quot;</span></h1>
             </div>
         </section>
     )
