@@ -64,7 +64,7 @@ export default function Form() {
                 </div>
 
 
-                <div className="hidden md:block mb-2 md:mb- md:w-1/2">
+                <div className="hidden md:block mb-2 md:mb-4 md:w-1/2">
                     <label htmlFor="mobile" className="text-[var(--light)] font-light ">
                         Mobile Number (optional):
                     </label>
@@ -82,7 +82,7 @@ export default function Form() {
                     className="w-full h-10 bg-white rounded-md p-1 md:p-2 focus:outline-none focus:ring-1 ring-[var(--teal)] font-light text-[var(--black)] "
                 >
                     <option value="General & Feedback">General & Feedback</option>
-                    {/* <option value="Freelance2.0">Freelance 2.0</option> */}
+                    <option value="Freelance2.0">Freelance 2.0</option>
 
                 </select>
             </div>
