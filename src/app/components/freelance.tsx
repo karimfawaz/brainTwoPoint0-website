@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Freelance() {
     return (
-        <section className="snap-center flex flex-row justify-start items-center overflow-scroll no-scrollbar">
+        <section className="snap-start flex flex-row justify-start items-center overflow-scroll no-scrollbar">
             <div className="flex flex-col justify-center items-center h-full w-1/5 md:w-40">
                 <h1 className="font-bold text-7xl md:text-[5rem] text-[var(--freelance)] rotate-90 ">FREELANCE<span className="font-[100] inter-font">2.0</span></h1>
             </div>
