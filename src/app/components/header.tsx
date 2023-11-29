@@ -20,7 +20,7 @@ export default function Header() {
                 <Navbar />
                 <Image height={1000} width={2000} src="/B2.0-textlogo.png" className="md:w-1/2 w-4/5" alt="Logo" />
                 <p className="text-[var(--light)] mt-4 text-sm text-center md:text-5xl">DRIVEN BY VALUES, POWERED BY INTELLECT</p>
-                <div className="absolute bottom-5 animate-bounce" onClick={scrollToNextSection}>
+                <div className="absolute bottom-5 animate-bounce cursor-pointer" onClick={scrollToNextSection}>
                     <FaChevronDown className="text-[var(--light)] text-3xl md:text-6xl" />
                 </div>
             </section>
