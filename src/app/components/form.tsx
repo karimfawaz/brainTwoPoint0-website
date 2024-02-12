@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Form() {
     return (
-        <form className="w-3/4 md:w-3/5" data-netlify="true" name="contact" method="POST" action="/">
+        <form className="w-3/4 md:w-3/5" data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" action="/">
+            <p className="hidden"><label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field" /></label></p>
             <input type="hidden" name="form-name" value="contact" />
             <div className="md:flex md:flex-row w-full md:justify-between md:space-x-4">
                 <div className="mb-2 md:mb-4 md:w-1/2">
