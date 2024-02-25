@@ -5,6 +5,7 @@ import About from './sections/about'
 import Software from './sections/software'
 import Navbar from './common/navbar'
 import Footer from './common/footer'
+import Team from './sections/team'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       {/* <Software /> */}
       <Freelance />
+      <Team />
       <Contact />
       <Footer />
     </main>

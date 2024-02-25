@@ -10,7 +10,7 @@ export default function About() {
             <SectionTitle firstText="ABOUT" secondText="US" colorClass="white" />
 
             <div className="w-full flex flex-col p-4 md:p-12 items-center">
-                <h1 className="font-bold text-white md:text-6xl text-2xl mb-3 md:mb-6 w-full">BRAIN 2.<span className="font-[100] inter-font">&quot;OOOH&quot;</span></h1>
+                <h1 className="font-bold text-white md:text-6xl text-xl mb-3 md:mb-6 w-full">BRAIN 2.<span className="font-[100] inter-font">&quot;OOOH&quot;</span></h1>
                 <div className="flex flex-col justify-center items-center">
                     <p className="text-white md:text-xl text-xs">
 
