@@ -59,8 +59,8 @@ export default function Form() {
                     className="w-full h-10 bg-white rounded-md p-1 md:p-2 focus:outline-none focus:ring-1 ring-[var(--teal)] font-light text-[var(--black)]"
                 >
                     <option value="General & Feedback">General & Feedback</option>
-                    <option value="Freelance2.0">FREELANCE2.0</option>
-                    <option value="Freelance2.0">PLAYBACK</option>
+                    <option value="FREELANCE2.0">FREELANCE2.0</option>
+                    <option value="PLAYBACK">PLAYBACK</option>
                 </select>
             </div>
             <label htmlFor="tellUsMore" className="text-[var(--light)] font-light">
