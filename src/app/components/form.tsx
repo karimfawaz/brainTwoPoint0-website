@@ -1,15 +1,30 @@
 import React from 'react';
 
-// A reusable input component
-const InputField = ({ id, label, type = 'text', className = '', required = false, isOptional = false }) => (
+type InputFieldProps = {
+    id: string;
+    label: string;
+    type?: string;
+    className?: string;
+    required?: boolean;
+    isOptional?: boolean;
+};
+
+const InputField = ({
+    id,
+    label,
+    type = "text",
+    className = "",
+    required = false,
+    isOptional = false,
+}: InputFieldProps) => (
     <div className={`mb-2 md:mb-4 w-full ${className}`}>
         <label htmlFor={id} className="text-[var(--light)] font-light">
-            {label} {isOptional && '(optional)'}
+            {label} {isOptional && "(optional)"}
         </label>
         <input
-            required={required && !isOptional}
+            id={id}
             type={type}
-            name={id}
+            required={required}
             className="w-full bg-white rounded-md p-1 md:p-2 focus:outline-none focus:ring-1 ring-[var(--teal)] font-light text-[var(--black)]"
         />
     </div>
