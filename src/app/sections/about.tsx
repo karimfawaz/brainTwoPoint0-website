@@ -23,7 +23,7 @@ export default function About() {
                         With each step forward, <span className="font-bold text-white">BRAIN<span className="inter-font font-light">2.0</span></span> reaffirms its commitment to excellence and innovation. We are more than a company; we are an evolving force, dedicated to providing tailored solutions across a wide array of industries and personal needs. Our journey is marked by continuous growth, driven by our core values and intellect, as we endeavor to make a significant and positive impact in the lives of individuals and the operations of businesses.
                     </p>
                 </div>
-                <div className="flex snap-x overflow-scroll border mt-8 md:mt-8 p-2 md:justify-center rounded-lg no-scrollbar">
+                <div className="flex snap-x overflow-scroll border mt-8 p-2  rounded-lg no-scrollbar">
                     <Image alt="Brain 2.0 Logo Redesign" src="/redesign/1.png" width={250} height={250} className="snap-center md:h-72 md:w-72 w-52 h-52" />
                     <Image alt="Brain 2.0 Logo Redesign" src="/redesign/2.png" width={250} height={250} className="snap-center md:h-72 md:w-72 w-52 h-52" />
                     <Image alt="Brain 2.0 Logo Redesign" src="/redesign/3.png" width={250} height={250} className="snap-center md:h-72 md:w-72 w-52 h-52" />
