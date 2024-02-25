@@ -1,23 +1,25 @@
-import Header from './components/header'
-import Freelance from './components/freelance'
-import Contact from './components/contact'
-import About from './components/about'
-import Consulting from './components/consulting'
-import Software from './components/software'
-import Content from './components/content'
+import Header from './sections/header'
+import Freelance from './sections/freelance'
+import Contact from './sections/contact'
+import About from './sections/about'
+import Software from './sections/software'
+import Navbar from './common/navbar'
+import Footer from './common/footer'
+import Team from './sections/team'
 
 
 export default function Home() {
   return (
 
-    <main className="h-screen w-screen snap-y snap-mandatory scroll-smooth overflow-y-scroll no-scrollbar supports-[height:100cqh]:h-[100cqh] supports-[height:100dvh]:h-[100dvh]">
+    <main>
+      <Navbar />
       <Header />
-      {/* <About /> */}
+      <About />
       {/* <Software /> */}
-      {/* <Freelance /> */}
-
-
+      <Freelance />
+      <Team />
       <Contact />
+      <Footer />
     </main>
   )
 }
