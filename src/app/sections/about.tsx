@@ -6,7 +6,7 @@ import SectionTitle from '../components/sectiontitle'
 
 export default function About() {
     return (
-        <section className="flex flex-row justify-start items-center overflow-scroll bg-[var(--light)]">
+        <section className="flex flex-row justify-start items-center overflow-scroll bg-[var(--light)] no-scrollbar">
             <SectionTitle firstText="ABOUT" secondText="US" colorClass="[var(--dark-grey)]" />
 
             <div className="w-full flex flex-col p-4 md:p-12 items-center">
