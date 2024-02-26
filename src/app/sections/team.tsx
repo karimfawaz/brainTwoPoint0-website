@@ -36,8 +36,8 @@ export default function Team() {
                                         />
                                     </div>
                                     <div className="mt-2">
-                                        <h4 className="text-gray-700 font-semibold sm:text-2xl">{item.name}</h4>
-                                        <p className="text-[var(--teal)] sm:text-lg">{item.title}</p>
+                                        <h4 className="text-gray-700 font-semibold sm:text-2xl text-lg">{item.name}</h4>
+                                        <p className="text-[var(--teal)] text-sm md:text-lg">{item.title}</p>
                                         <div className="mt-4 flex justify-center gap-4 text-gray-400">
                                             <a target='_blank' href={item.instagram}>
                                                 <svg
