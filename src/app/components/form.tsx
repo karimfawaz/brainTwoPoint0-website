@@ -32,7 +32,7 @@ const InputField = ({
 
 export default function Form() {
     return (
-        <form className="w-3/4 md:w-3/5" data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" action="/">
+        <form data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" action="/">
             <p className="hidden">
                 <label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field" /></label>
             </p>
