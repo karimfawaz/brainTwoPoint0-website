@@ -96,7 +96,7 @@ export default function Form() {
                 name="tellUsMore"
                 rows={2}
                 className="w-full bg-white rounded-md p-1 md:p-2 focus:outline-none focus:ring-1 ring-[var(--teal)] font-light text-[var(--black)] resize-vertical" />
-            <button type="submit" className="px-10 mt-6 py-2 bg-white text-[var(--black)] rounded-md text-lg border-[var(--teal)] border-2 hover:bg-[var(--teal)] hover:text-[var(--white)] transition-all duration-300 ease-in-out w-full">
+            <button type="submit" className="font-bold px-10 mt-6 py-2 bg-white text-[var(--black)] rounded-md text-lg border-[var(--teal)] border-2 hover:bg-[var(--teal)] hover:text-[var(--white)] transition-all duration-300 ease-in-out w-full">
                 Submit
             </button>
         </form>
