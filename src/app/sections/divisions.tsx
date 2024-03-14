@@ -51,7 +51,7 @@ export default function Divisions() {
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-medium mb-3">Innovating <span className='font-bold'>Influence</span>, Inspiring <span className='font-bold'>Growth</span></h3>
                             <p className="leading-relaxed text-base">At CONTENT2.0, we are setting a new standard for digital content. Through innovative strategies and powerful analytics, we transform platforms into thriving businesses.</p>
                             <a className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold"><Link href="/content">Learn More</Link>
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
                             </a>
@@ -65,7 +65,7 @@ export default function Divisions() {
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-medium mb-3">Access <span className='font-bold'>the Moment</span></h3>
                             <p className="leading-relaxed text-base">PLAYBACK brings professional sports analytics to every athlete. Relive your victories, improve your skills, and share your journey. Dive into the future of sports. Click to discover how.</p>
                             <a className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold"><Link href="/playback">Learn More</Link>
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
                             </a>
