@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrainTwoPoint0Thin } from '../layout'
+import Image from 'next/image'
 
 export default function Team() {
     const team = [
@@ -28,7 +29,7 @@ export default function Team() {
                             team.map((item, idx) => (
                                 <li key={idx}>
                                     <div className="w-28 h-28 md:w-48 md:h-48 mx-auto">
-                                        <img
+                                        <Image
                                             src={item.avatar}
                                             className="w-full h-full rounded-full border border-black"
                                             alt={`${item.name} Avatar`}

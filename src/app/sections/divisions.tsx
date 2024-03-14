@@ -49,7 +49,7 @@ export default function Divisions() {
                         <div className="flex-grow">
                             <h2 className="text-[var(--dark-grey)] text-xl title-font font-bold mb-3">CONTENT<span className="font-medium">2.0</span></h2>
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-medium mb-3">Innovating <span className='font-bold'>Influence</span>, Inspiring <span className='font-bold'>Growth</span></h3>
-                            <p className="leading-relaxed text-base">At CONTENT2.0, we're setting a new standard for digital content. Through innovative strategies and powerful analytics, we transform platforms into thriving businesses.</p>
+                            <p className="leading-relaxed text-base">At CONTENT2.0, we are setting a new standard for digital content. Through innovative strategies and powerful analytics, we transform platforms into thriving businesses.</p>
                             <a className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold"><Link href="/content">Learn More</Link>
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
