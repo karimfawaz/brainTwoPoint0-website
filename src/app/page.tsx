@@ -3,23 +3,20 @@ import Freelance from './sections/freelance'
 import Contact from './sections/contact'
 import About from './sections/about'
 import Software from './sections/software'
-import Navbar from './common/navbar'
-import Footer from './common/footer'
 import Team from './sections/team'
+import Divisions from './sections/divisions'
 
 
 export default function Home() {
   return (
 
     <main>
-      <Navbar />
       <Header />
-      <About />
+      <Divisions />
+      {/* <About /> */}
       {/* <Software /> */}
-      <Freelance />
-      <Team />
-      <Contact />
-      <Footer />
+      {/* <Freelance /> */}
+      {/* <Team /> */}
     </main>
   )
 }

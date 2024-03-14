@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Form() {
     return (
-        <form data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" action="/">
+        <form data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" action="/" className='w-full'>
             <p className="hidden"><label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field" /></label></p>
             <input type="hidden" name="form-name" value="contact" />
             <div className="md:flex md:flex-row w-full md:justify-between md:space-x-4">
@@ -83,7 +83,10 @@ export default function Form() {
                     className="w-full h-10 bg-white rounded-md p-1 md:p-2 focus:outline-none focus:ring-1 ring-[var(--teal)] font-light text-[var(--black)] "
                 >
                     <option value="General & Feedback">General & Feedback</option>
-                    <option value="Freelance2.0">Freelance 2.0</option>
+                    <option value="SOFTWARE2.0">SOFTWARE2.0</option>
+                    <option value="FREELANCE2.0">FREELANCE2.0</option>
+                    <option value="CONTENT2.0">CONTENT2.0</option>
+                    <option value="PLAYBACK">PLAYBACK</option>
 
                 </select>
             </div>

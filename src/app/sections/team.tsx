@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTitle from '../components/sectiontitle'
+import { BrainTwoPoint0Thin } from '../layout'
 
 export default function Team() {
     const team = [
@@ -17,11 +17,10 @@ export default function Team() {
     return (
 
         <section className="flex flex-row justify-start items-center overflow-scroll no-scrollbar bg-[var(--white)]" >
-            <SectionTitle firstText="THE" secondText="TEAM" colorClass="[var(--dark-grey)]" />
 
             <div className="w-full flex flex-col p-4 md:p-12 items-center">
 
-                <h1 className="font-bold text-[var(--dark-grey)] md:text-6xl text-xl mb-3 md:mb-6 w-full">MAKING IT<span className="font-[100] inter-font"> HAPPEN</span></h1>
+                <h1 className="font-bold text-[var(--dark-grey)] md:text-6xl text-xl mb-3 md:mb-6 w-full">MAKING IT<span className={BrainTwoPoint0Thin.className}> HAPPEN</span></h1>
                 <p className='w-full text-xs md:text-lg'><span className="font-bold text-[var(--dark-grey)]">BRAIN<span className="inter-font font-light">2.0</span></span> is growing, and so is its team. Our backbone comprises of our leadership team, ambassadors, talent pool, and most importantly, our clients.</p>
                 <div className="mt-12">
                     <ul className="grid text-center">

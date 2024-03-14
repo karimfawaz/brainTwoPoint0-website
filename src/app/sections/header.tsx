@@ -1,14 +1,14 @@
 import React from 'react';
-import Image from 'next/image';
+import { BrainTwoPoint0Semibold } from '../layout';
 
 export default function Header() {
 
     return (
-        <section className="flex flex-col items-center justify-center bg-[var(--dark-grey)] py-16 ">
-            <Image height={750} width={900} src="/B2.0-textlogo.png" className="md:p-0 px-4" alt="Brain 2.0 Logo" />
-            <p className="text-[var(--light)] mt-4 text-sm text-center md:text-3xl">DRIVEN BY VALUES, POWERED BY INTELLECT</p>
+        <section className="bg-[var(--dark-grey)]">
+            <div className='flex items-center max-w-[110rem] m-auto py-16 md:py-44 pl-6 border-t-2'>
+                <p className={`${BrainTwoPoint0Semibold.className} text-[var(--light)] text-2xl md:text-8xl max-w-7xl md:w-full w-4/5`}>DRIVEN BY VALUES, POWERED BY INTELLECT</p>
+
+            </div>
         </section>
-
-
     );
 }
