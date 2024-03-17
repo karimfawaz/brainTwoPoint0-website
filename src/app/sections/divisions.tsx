@@ -21,11 +21,11 @@ export default function Divisions() {
                             <h2 className="text-[var(--dark-grey)] text-xl title-font font-bold mb-3">SOFTWARE<span className="font-medium">2.0</span></h2>
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-bold mb-3">Solving <span className='font-medium'>through</span> Software</h3>
                             <p className="leading-relaxed text-base">Our flagship division continues our legacy of crafting efficient software solutions that simplify complexities, ensuring user-friendly experiences backed by robust, sophisticated processes.</p>
-                            <a className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold"><Link href="/software">Learn More</Link>
+                            <Link href="/software" className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -35,11 +35,11 @@ export default function Divisions() {
                             <h2 className="text-[var(--dark-grey)] text-xl title-font font-bold mb-3">FREELANCE<span className="font-medium">2.0</span></h2>
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-medium mb-3">Redefining <span className='font-bold'>Joint Ventures</span> </h3>
                             <p className="leading-relaxed text-base">FREELANCE2.0 is redefining the collaboration landscape, transcending traditional freelancing by fostering deeper, more integrated partnerships.</p>
-                            <a className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold"><Link href="/freelance">Learn More</Link>
+                            <Link href="/freelance" className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -50,11 +50,11 @@ export default function Divisions() {
                             <h2 className="text-[var(--dark-grey)] text-xl title-font font-bold mb-3">CONTENT<span className="font-medium">2.0</span></h2>
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-medium mb-3">Innovating <span className='font-bold'>Influence</span>, Inspiring <span className='font-bold'>Growth</span></h3>
                             <p className="leading-relaxed text-base">At CONTENT2.0, we are setting a new standard for digital content. Through innovative strategies and powerful analytics, we transform platforms into thriving businesses.</p>
-                            <a className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold"><Link href="/content">Learn More</Link>
+                            <Link href="/content" className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -64,11 +64,11 @@ export default function Divisions() {
                             <h2 className="text-[var(--dark-grey)] text-xl title-font font-bold mb-3">PLAYBACK</h2>
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-medium mb-3">Access <span className='font-bold'>the Moment</span></h3>
                             <p className="leading-relaxed text-base">PLAYBACK brings professional sports analytics to every athlete. Relive your victories, improve your skills, and share your journey. Dive into the future of sports. Click to discover how.</p>
-                            <a className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold"><Link href="/playback">Learn More</Link>
+                            <Link href="/playback" className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
