@@ -8,7 +8,7 @@ export default function Ethos() {
             <div className="container px-5 py-24 mx-auto">
                 <div className="text-center mb-20">
                     <h1 className="sm:text-3xl text-2xl title-font text-[var(--dark-grey)] mb-4 font-light">ETHOS<span className={BrainTwoPoint0Thin.className}>2.0</span></h1>
-                    <p className="text-base leading-relaxed lg:w-3/4 mx-auto text-[var(--dark-grey)]">We are dedicated to elevating any field we touch to the next level – true to our promise of "2.0-ing" every venture.</p>
+                    <p className="text-base leading-relaxed lg:w-3/4 mx-auto text-[var(--dark-grey)]">We are dedicated to elevating any field we touch to the next level – true to our promise of &ldquo;2.0-ing&rdquo; every venture.</p>
                 </div>
                 <div className="flex flex-wrap -m-4 justify-center">
                     <div className="xl:w-1/3 md:w-1/2 p-4">
