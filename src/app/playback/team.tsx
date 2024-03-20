@@ -6,7 +6,7 @@ export default function PLAYBACKTeam() {
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-3xl text-2xl font-bold mb-4 ">TEAM</h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">The project's backbone, the <span className='font-bold'>TEAM</span>, is working hard to deliver the project as quickly as possible and enable you to start elevating your experience by curating mutually beneficial deals on an international scale.</p>
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">The project&lsquo;s backbone, the <span className='font-bold'>TEAM</span>, is working hard to deliver the project as quickly as possible and enable you to start elevating your experience by curating mutually beneficial deals on an international scale.</p>
                 </div>
                 <div className="flex flex-wrap -m-2">
                     <div className="p-2 lg:w-1/4 md:w-1/2 w-full">
