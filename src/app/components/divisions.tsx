@@ -73,7 +73,7 @@ export default function Divisions() {
                     </div>
 
                 </div>
-                <button className="flex mx-auto mt-16 text-[var(--light)] bg-[var(--dark-grey)] py-2 px-8 border-2 border-[var(--dark-grey)] focus:outline-none hover:bg-[var(--light)] font-bold text-lg hover:text-[var(--dark-grey)]"><Link href="/about">ABOUT<span className='font-thin'>US</span></Link></button>
+                <Link href="/about"><button className="flex mx-auto mt-16 text-[var(--light)] bg-[var(--dark-grey)] py-2 px-8 border-2 border-[var(--dark-grey)] focus:outline-none hover:bg-[var(--light)] font-bold text-lg hover:text-[var(--dark-grey)]">ABOUT<span className='font-thin'>US</span></button></Link>
             </div>
         </section>
 

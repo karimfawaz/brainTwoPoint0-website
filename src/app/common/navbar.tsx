@@ -30,7 +30,7 @@ export default function Navbar() {
             </Link>
 
           </div>
-          <button className="bg-[var(--light)] text-[var(--black)] px-10 font-bold h-12 hidden md:block hover:bg-[var(--teal)]"><Link href="/contact">REACH OUT</Link></button>
+          <Link href="/contact"><button className="bg-[var(--light)] text-[var(--black)] px-10 font-bold h-12 hidden md:block hover:bg-[var(--teal)]">REACH OUT</button></Link>
         </div>
       </div>
 

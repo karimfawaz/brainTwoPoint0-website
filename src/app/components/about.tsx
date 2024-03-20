@@ -1,14 +1,15 @@
 import Image from "next/image"
+import Link from "next/link"
 export default function AboutUs() {
     return (
 
-        <section className="text-gray-600 body-font bg-white">
+        <section className="text-gray-600 bg-white">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-gray-900">BRAIN 2.<span className="font-thin">&ldquo;OOOH&rdquo;</span></h1>
                     <p className="mb-8 leading-relaxed">Established in 2017 as a pioneering software development firm, <span className="font-bold text-[var(--black)]">BRAIN<span className="inter-font font-light">2.0</span></span>  has evolved into a multifaceted solutions innovator. Embodying our ethos, &rsquo;Driven by Values, Powered by Intellect&rsquo;, we are committed to leveraging intellectual prowess to deliver value-driven solutions for a diverse range of needs, catering to both individuals and businesses.<br /><br />
 
-                        At <span className="font-bold text-[var(--black)]">BRAIN<span className="inter-font font-light">2.0</span></span>, we don&rsquo;t just create software; we engineer a spectrum of revolutionary solutions. Our flagship division, <span className="font-bold text-[var(--black)]">SOFTWARE<span className="inter-font font-light">2.0</span></span>, continues our legacy of crafting efficient software solutions that simplify complexities, ensuring user-friendly experiences backed by robust, sophisticated processes.<br /><br />
+                        At <span className="font-bold text-[var(--black)]">BRAIN<span className="inter-font font-light">2.0</span></span>, we don&rsquo;t just create software; we engineer a spectrum of revolutionary solutions. Our flagship division, <Link href="/freelance"><span className="font-bold text-[var(--black)]">SOFTWARE<span className="inter-font font-light">2.0</span></span></Link>, continues our legacy of crafting efficient software solutions that simplify complexities, ensuring user-friendly experiences backed by robust, sophisticated processes.<br /><br />
 
                         Our evolution extends beyond the realm of traditional software. As we embrace our expanding role, we are venturing into various innovative sectors, each aligned with our mission to elevate lifestyles and empower businesses through simplicity and efficiency. Our forthcoming initiatives, diverse in their focus, share a common purpose: to revolutionise and lead in their respective fields.<br /><br />
 
