@@ -13,7 +13,7 @@ export default function PLAYBACKTeam() {
                         <div className="h-full flex items-center border p-4 rounded-lg border-[var(--dark-grey)]">
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/karim.jpeg" />
                             <div className="flex-grow">
-                                <h2 className=" font-medium">Karim Fawaz</h2>
+                                <h2 className=" font-bold">Karim Fawaz</h2>
                                 <p className="">Founder & CEO</p>
                             </div>
                         </div>
@@ -23,7 +23,7 @@ export default function PLAYBACKTeam() {
                         <div className="h-full flex items-center border p-4 rounded-lg border-[var(--dark-grey)]">
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/yuval.jpeg" />
                             <div className="flex-grow">
-                                <h2 className=" font-medium">Yuval Cole</h2>
+                                <h2 className=" font-bold">Yuval Cole</h2>
                                 <p className="">Operations Director - España Ambassador</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function PLAYBACKTeam() {
                         <div className="h-full flex items-center border p-4 rounded-lg border-[var(--dark-grey)]">
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/louis.jpeg" />
                             <div className="flex-grow">
-                                <h2 className=" font-medium">Louis Gualda</h2>
+                                <h2 className=" font-bold">Louis Gualda</h2>
                                 <p className="">Operations Director - France Ambassador</p>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function PLAYBACKTeam() {
                         <div className="h-full flex items-center border p-4 rounded-lg border-[var(--dark-grey)]">
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/tommaso.jpeg" />
                             <div className="flex-grow">
-                                <h2 className=" font-medium">Tommaso di Gregorio</h2>
+                                <h2 className=" font-bold">Tommaso di Gregorio</h2>
                                 <p className="">Customer Acquisition Director - Italy Ambassador </p>
                             </div>
                         </div>

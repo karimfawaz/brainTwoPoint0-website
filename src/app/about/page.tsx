@@ -1,7 +1,7 @@
-import AboutUs from "../components/about";
+import AboutUs from "./header";
 import Enquiries from "../components/enquiries";
-import Ethos from "../components/ethos";
-import Team from "../components/team";
+import Ethos from "./ethos";
+import Team from "./team";
 
 export default function About() {
     return (
