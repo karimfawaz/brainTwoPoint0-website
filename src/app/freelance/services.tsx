@@ -9,7 +9,7 @@ export default function OurServices() {
                 <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-32 gap-x-10 lg:gap-x-24">
                     <div className='text-center md:text-left flex flex-col'>
                         <h2 className="mb-3 text-3xl font-extrabold leading-tight tracking-tight text-black md:text-4xl">Make an Impact</h2>
-                        <p className="mb-6 text-lg text-gray-600 md:text-xl">Our <span className='font-bold'>TALENT<span className="font-thin">POOL</span></span> has a lot to offer. We remain focused on impact whilst staying faithful to our values and our promise to deliver. We always "<span className='font-bold'>2.0</span>".</p>
+                        <p className="mb-6 text-lg text-gray-600 md:text-xl">Our <span className='font-bold'>TALENT<span className="font-thin">POOL</span></span> has a lot to offer. We remain focused on impact whilst staying faithful to our values and our promise to deliver. We always &ldquo;<span className='font-bold'>2.0</span>&rdquo;.</p>
                         <Link href="/contact" className="text-center text-[var(--light)] bg-[var(--dark-grey)] py-2 px-8 border-2 border-[var(--dark-grey)] focus:outline-none hover:bg-white font-bold text-lg hover:text-[var(--dark-grey)]"><button>ENQUIRIES</button></Link>
                     </div>
                     <div className="flex flex-col flex-grow space-y-5">
