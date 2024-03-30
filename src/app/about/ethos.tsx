@@ -39,6 +39,21 @@ export default function Ethos() {
                         </div>
                     </div>
 
+                    <div className="xl:w-1/3 md:w-1/2 p-4">
+                        <div className="border border-[var(--dark-grey)] p-6 rounded-lg ">
+                            <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[var(--dark-grey)] text-[var(--light)] mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5" aria-hidden="true">
+                                    <path
+                                        fillRule="evenodd"
+                                        d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
+                                        clipRule="evenodd"
+                                    />
+                                </svg>
+                            </div>
+                            <h2 className="text-lg text-gray-900 font-medium mb-2">No Selling</h2>
+                            <p className="leading-relaxed text-base">We believe that selling is the biggest blocker to growth. Instead of trying to convince our clients that our solution is the best, we promote open discussions to truly understand how we can provide the most value to our users and how <span className='font-bold'>BRAIN</span>2.0 fits into your organisation. We focus on providing, not selling.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
