@@ -14,7 +14,7 @@ export default function PLAYBACKTeam() {
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/karim.jpeg" />
                             <div className="flex-grow">
                                 <h2 className=" font-bold">Karim Fawaz</h2>
-                                <p className="">Founder & CEO</p>
+                                <p>Founder & CEO</p>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ export default function PLAYBACKTeam() {
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/yuval.jpeg" />
                             <div className="flex-grow">
                                 <h2 className=" font-bold">Yuval Cole</h2>
-                                <p className="">Operations Director - España Ambassador</p>
+                                <p>Operations Director - España Ambassador</p>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export default function PLAYBACKTeam() {
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/louis.jpeg" />
                             <div className="flex-grow">
                                 <h2 className=" font-bold">Louis Gualda</h2>
-                                <p className="">Operations Director - France Ambassador</p>
+                                <p>Operations Director - France Ambassador</p>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function PLAYBACKTeam() {
                             <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/team/tommaso.jpeg" />
                             <div className="flex-grow">
                                 <h2 className=" font-bold">Tommaso di Gregorio</h2>
-                                <p className="">Customer Acquisition Director - Italy Ambassador </p>
+                                <p>Customer Acquisition Director - Italy Ambassador </p>
                             </div>
                         </div>
                     </div>
