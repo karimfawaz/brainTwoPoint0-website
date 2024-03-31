@@ -63,7 +63,7 @@ export default function Divisions() {
                         <div className="flex-grow">
                             <h2 className="text-[var(--dark-grey)] text-xl title-font font-bold mb-3">PLAYBACK</h2>
                             <h3 className="text-[var(--dark-grey)] text-lg title-font font-medium mb-3">Access <span className='font-bold'>the Moment</span></h3>
-                            <p className="leading-relaxed text-base">PLAYBACK brings professional sports analytics to every athlete. Relive your victories, improve your skills, and share your journey. Dive into the future of sports. Click to discover how.</p>
+                            <p className="leading-relaxed text-base">PLAYBACK brings professional sports analytics to every athlete. Relive your victories, improve your skills, and share your journey. Dive into the future of sports content management.</p>
                             <Link href="/playback" className="mt-3 text-[var(--dark-grey)] hover:text-[var(--teal)] inline-flex items-center font-bold">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
