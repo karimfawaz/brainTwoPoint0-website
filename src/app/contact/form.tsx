@@ -48,7 +48,7 @@ export default function Form() {
                 )}
             </div>
 
-            <form netlify-honeypot="bot-field" name="contact" className='w-full space-y-10' onSubmit={handleFormSubmit}>
+            <form netlify-honeypot="bot-field" name="contact" className='w-full space-y-10' onSubmit={handleFormSubmit} action="/">
                 <div>
                     <h1 className='text-white text-3xl font-bold'><span className='font-thin'>THE</span>FORM:</h1>
                     <div className="">
