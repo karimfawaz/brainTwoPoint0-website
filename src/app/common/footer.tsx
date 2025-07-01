@@ -8,7 +8,7 @@ export default function Footer() {
                 <a href="https://www.instagram.com/braintwopoint0/" target="_blank"><Image height={150} width={150} src="/insta.svg" alt="Instagram Icon" className="h-8 w-8" /></a>
                 <a href="https://www.linkedin.com/company/98897834" target="_blank"><Image height={150} width={150} src="/linkedin.svg" alt="LinkedIn Icon" className="h-8 w-8" /></a>
             </div>
-            <p className="text-[var(--light)]">Copyright © 2024<span className="font-bold"> BRAIN<span className="inter-font font-light">2.0</span></span> LTD.</p>
+            <p className="text-[var(--light)]">Copyright © 2025<span className="font-bold"> BRAIN<span className="inter-font font-light">2.0</span></span> LTD.</p>
         </footer>
     )
 }
