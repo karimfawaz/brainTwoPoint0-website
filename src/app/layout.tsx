@@ -1,9 +1,12 @@
 import type { Metadata } from 'next'
-import { PT_Sans_Caption } from 'next/font/google'
+import { PT_Sans_Caption, Geist } from 'next/font/google'
 import './globals.css'
 import Navbar from './common/navbar'
 import Footer from './common/footer'
 import localFont from 'next/font/local'
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const PTsans = PT_Sans_Caption({ weight: ["400", "700"], subsets: ['latin'] })
 export const BrainTwoPoint0Regular = localFont({ src: '../../public/fonts/AvertaStd-Regular.ttf' })
@@ -23,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={cn("font-sans", geist.variable)}>
       <head>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
