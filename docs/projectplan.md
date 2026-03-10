@@ -80,10 +80,10 @@ Consolidate the current multi-page website into a **single-page, Palantir-inspir
 ## Tech Tasks (Step by Step)
 
 ### Phase 1: Setup shadcn/ui & Design System
-- [ ] 1.1 — Install and configure shadcn/ui (init, tailwind config, utils)
-- [ ] 1.2 — Update Tailwind config with design tokens (colors, fonts, spacing)
-- [ ] 1.3 — Install needed shadcn components (Button, Card, Input, Textarea, Select, Badge, Separator, NavigationMenu, Sheet)
-- [ ] 1.4 — Invoke `/frontend-design` and establish the visual direction (dark Palantir-style, typography scale, animation approach)
+- [x] 1.1 — Install and configure shadcn/ui (init, tailwind config, utils) — Upgraded to Next.js 16, React 19, Tailwind v4, shadcn v4 (base-nova)
+- [x] 1.2 — Update Tailwind config with design tokens (colors, fonts, spacing) — CSS-based config with BRAIN 2.0 dark theme
+- [x] 1.3 — Install needed shadcn components (Button, Card, Input, Textarea, Badge, Separator, Sheet)
+- [x] 1.4 — Invoke `/frontend-design` and establish the visual direction (dark Palantir-style, typography scale, animation approach)
 - [ ] 1.5 — Set up EnsembleData API integration for social stats
   - Sign up at ensembledata.com (free, no credit card)
   - Create Next.js API route to fetch stats for @dsk95_, @more_dsk (TikTok) and @dsk_95_ (Instagram)
@@ -91,19 +91,19 @@ Consolidate the current multi-page website into a **single-page, Palantir-inspir
   - Aggregate: total followers, total likes, platforms managed
 
 ### Phase 2: Layout & Navigation
-- [ ] 2.1 — Create new single-page layout in `src/app/page.tsx`
-- [ ] 2.2 — Build sticky navigation bar with smooth-scroll links to each section (using shadcn NavigationMenu)
-- [ ] 2.3 — Add mobile navigation (Sheet/drawer for hamburger menu)
+- [x] 2.1 — Create new single-page layout in `src/app/page.tsx`
+- [x] 2.2 — Build sticky navigation bar with smooth-scroll links to each section
+- [x] 2.3 — Add mobile navigation (Sheet/drawer for hamburger menu)
 
 ### Phase 3: Build Sections (Top to Bottom)
-- [ ] 3.1 — Hero section
-- [ ] 3.2 — About / Who We Are section
-- [ ] 3.3 — Enterprise & AI Infrastructure section
-- [ ] 3.4 — Gotcha section
-- [ ] 3.5 — PLAYBACK section
-- [ ] 3.6 — CONTENT 2.0 section
-- [ ] 3.7 — FREELANCE 2.0 section
-- [ ] 3.8 — Contact section (port Netlify Forms integration)
+- [x] 3.1 — Hero section
+- [x] 3.2 — About / Who We Are section
+- [x] 3.3 — Enterprise & AI Infrastructure section
+- [x] 3.4 — Gotcha section
+- [x] 3.5 — PLAYBACK section
+- [x] 3.6 — CONTENT 2.0 section
+- [x] 3.7 — FREELANCE 2.0 section
+- [x] 3.8 — Contact section (port Netlify Forms integration)
 
 ### Phase 4: Polish & Cleanup
 - [ ] 4.1 — Add scroll-based animations (Framer Motion intersection observer reveals)
