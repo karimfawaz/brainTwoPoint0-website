@@ -1,6 +1,9 @@
 'use client'
 
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
 import { Reveal } from './reveal'
+import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Enterprise() {
@@ -24,11 +27,23 @@ export default function Enterprise() {
             </Reveal>
 
             <Reveal delay={0.2}>
-              <p className="text-b2-muted leading-relaxed">
+              <p className="text-b2-muted leading-relaxed mb-8">
                 We partner with the world&rsquo;s leading technology companies on high-stakes AI
                 infrastructure, enterprise-scale code evaluation, and quality assurance - tackling
                 the kind of problems that demand precision, speed, and deep technical expertise.
               </p>
+            </Reveal>
+
+            <Reveal delay={0.3}>
+              <Link href="/enterprise">
+                <Button
+                  variant="outline"
+                  className="border-b2-teal/30 text-b2-teal hover:bg-b2-teal hover:text-b2-black tracking-wider uppercase text-xs gap-2"
+                >
+                  More on Enterprise AI
+                  <ArrowRight className="w-3 h-3" />
+                </Button>
+              </Link>
             </Reveal>
           </div>
 

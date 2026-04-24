@@ -1,6 +1,9 @@
 'use client'
 
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
 import { Reveal } from './reveal'
+import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Freelance() {
@@ -23,12 +26,24 @@ export default function Freelance() {
             </Reveal>
 
             <Reveal delay={0.2}>
-              <p className="text-b2-muted leading-relaxed">
+              <p className="text-b2-muted leading-relaxed mb-8">
                 We transcend traditional freelancing by fostering deeper, integrated partnerships.
                 We become a conceptual partner in your project - engaging from inception to
                 completion, contributing insights, innovation, and strategic alignment with your
                 goals.
               </p>
+            </Reveal>
+
+            <Reveal delay={0.3}>
+              <Link href="/copilot">
+                <Button
+                  variant="outline"
+                  className="border-b2-teal/30 text-b2-teal hover:bg-b2-teal hover:text-b2-black tracking-wider uppercase text-xs gap-2"
+                >
+                  More on CoPilot
+                  <ArrowRight className="w-3 h-3" />
+                </Button>
+              </Link>
             </Reveal>
           </div>
 

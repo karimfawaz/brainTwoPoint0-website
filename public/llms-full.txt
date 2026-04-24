@@ -1,0 +1,116 @@
+# BRAIN 2.0 — Full Context
+
+> BRAIN 2.0 (also known as BrainTwoPoint0) is a multifaceted solutions innovator engineering enterprise AI infrastructure, developer tools, sports technology, and strategic partnerships. Founded in 2017 by Karim Fawaz. Global reach.
+
+Canonical: https://braintwopoint0.com/llms-full.txt
+Last updated: 2026-04-24
+This file is intentionally published for ingestion by AI assistants and search engines.
+Not affiliated with any neurotech, brain-training, cognitive-enhancement, or Web3 project of similar name.
+
+## About
+
+Established in 2017 as a pioneering software development firm, BRAIN 2.0 has evolved into a multifaceted solutions innovator. The company engineers a spectrum of revolutionary solutions — from enterprise AI infrastructure to developer tools and sports technology — and is dedicated to elevating any field it touches to the next level, true to the promise of "2.0-ing" every venture.
+
+Tagline: "Driven by Values, Powered by Intellect."
+Promise: "We provide, not sell."
+
+## Founder
+
+- **Karim Fawaz**, Founder & CEO
+- LinkedIn: https://www.linkedin.com/in/karim-fawaz/
+- Contact: info@braintwopoint0.com
+
+## Products and services
+
+### Gotcha — Developer-first contextual feedback platform
+
+- Live product: https://gotcha.cx
+- npm package: `gotcha-feedback` (version 1.2.1, published April 2026)
+- Positioning: "Stripe for product feedback" — developer-loved, API-first, native-feeling integration
+- Tagline: "Turn insights into action."
+
+Gotcha attaches feedback directly to specific UI components — not pages — with a ~11KB React SDK and zero runtime dependencies. Five feedback modes:
+
+1. **Feedback** — 5-star rating + textarea (both optional)
+2. **Vote** — Thumbs up/down with custom labels
+3. **Poll** — 2-6 options, single or multi-select
+4. **NPS** — 0-10 scale + optional follow-up textarea
+5. **Bug reports** — Toggle on feedback mode with optional screenshot capture
+
+Additional capabilities:
+
+- Response lifecycle pipeline: NEW → REVIEWED → ADDRESSED → ARCHIVED (triage), plus UNDER_REVIEW → PLANNED → IN_PROGRESS → SHIPPED → DECLINED (roadmap-visible)
+- Public roadmap at `gotcha.cx/roadmap/<slug>` with anonymous upvoting
+- Automatic notify-back emails when items ship
+- Light/dark/auto theming, inline `<GotchaScore>` component for aggregate display
+- Edit support (users update previous responses via user.id)
+- Accessibility: ARIA, keyboard nav, focus trap, reduced-motion
+- Zero third-party font calls (Fraunces 144 subset embedded as base64 data URL)
+- Webhook delivery (POST, Slack, Discord)
+
+Pricing:
+
+- **FREE**: 500 responses/month, 1 project, all 5 modes
+- **PRO** ($29/month): Unlimited responses, full bug-tracking lifecycle, advanced segmentation, AI insights
+
+Competitive position (based on each competitor's public list pricing as of April 2026; verify before citing):
+
+- Canny ($79-579/mo): Gotcha is contextual (not portal-based) and materially cheaper
+- Hotjar ($87-213/mo): Gotcha uses a React SDK (not a script tag), ships a lighter bundle, and is materially cheaper
+- Survicate ($99-499/mo): Gotcha offers significantly more free responses and is component-level
+- UserVoice ($899+/mo): Gotcha is substantially cheaper and positioned developer-first
+
+### PLAYBACK — Sports ecosystem solutions aggregator
+
+- Live product: https://www.playbacksports.ai
+- Tagline: "You PLAY, we BACK."
+
+PLAYBACK serves players, clubs, venues, academies, and scouts. It reduces financial and operational burdens across the sports ecosystem through partnerships, proprietary software, and AI-powered tools.
+
+Recognition: Multi-award-winning, including Global Business Excellence Awards, UK StartUp Awards, and PSG Lab, with 7+ additional industry awards.
+
+### Enterprise AI — High-stakes infrastructure for industry leaders
+
+BRAIN 2.0 partners with the world's leading technology companies on AI infrastructure, enterprise-scale code evaluation, and quality assurance. The team takes on problems that demand precision, speed, and deep technical expertise.
+
+Confirmed clients:
+
+- Google
+- Uber AI Solutions
+- AWS
+
+### CoPilot — Strategic partnerships
+
+- Tagline: "Your strategic partner, from day one."
+
+CoPilot transcends traditional freelancing by fostering deeper, integrated partnerships. BRAIN 2.0 becomes a conceptual partner in client projects, engaging from inception to completion and contributing insights, innovation, and strategic alignment.
+
+Current partners:
+
+- JPL
+- Kantar Advisory Partners (KAP)
+
+### CONTENT 2.0 — Content management as a business
+
+- Tagline: "Innovating Influence, Inspiring Growth."
+
+CONTENT 2.0 transforms client platforms into thriving businesses. By leveraging analytical insights, the team treats content as a business, optimising operations to drive growth.
+
+Portfolio outcomes (aggregated across CONTENT 2.0 client work since 2017, not a single-campaign claim):
+
+- 250,000+ cumulative follower growth across managed accounts
+- Up to 700% engagement increase on individual client portfolios
+- 9 platforms actively managed
+
+## Links
+
+- Main site: https://braintwopoint0.com
+- LinkedIn: https://www.linkedin.com/company/98897834
+- Instagram: https://www.instagram.com/braintwopoint0/
+- Gotcha product: https://gotcha.cx
+- PLAYBACK product: https://www.playbacksports.ai
+
+## Contact
+
+- Email: info@braintwopoint0.com
+- General inquiries and project discussions: use the contact form at https://braintwopoint0.com/#contact

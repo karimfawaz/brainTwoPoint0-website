@@ -244,49 +244,52 @@ export default function Hero() {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-12 lg:gap-12">
             {/* Left: Tagline + descriptor */}
             <div className="flex-1 max-w-3xl">
-              {/* Tagline line 1 */}
-              <div className="overflow-hidden">
-                <motion.div
-                  className="text-[clamp(2rem,7.5vw,6.5rem)] leading-[1.05] tracking-[-0.02em]"
-                  initial={{ y: '110%' }}
-                  animate={{ y: '0%' }}
-                  transition={{
-                    duration: 1,
-                    delay: T.taglineL1,
-                    ease: EASE_EXPO,
-                  }}
-                >
-                  <span className="font-[family-name:var(--font-b2-thin)] text-b2-light/30">
-                    DRIVEN BY
-                  </span>
-                  <br />
-                  <span className="font-[family-name:var(--font-b2-black)] text-b2-light">
-                    VALUES
-                  </span>
-                </motion.div>
-              </div>
+              <h1 className="m-0">
+                <span className="sr-only">BRAIN 2.0 — Driven by Values, Powered by Intellect.</span>
+                {/* Tagline line 1 */}
+                <span aria-hidden="true" className="block overflow-hidden">
+                  <motion.span
+                    className="block text-[clamp(2rem,7.5vw,6.5rem)] leading-[1.05] tracking-[-0.02em]"
+                    initial={{ y: '110%' }}
+                    animate={{ y: '0%' }}
+                    transition={{
+                      duration: 1,
+                      delay: T.taglineL1,
+                      ease: EASE_EXPO,
+                    }}
+                  >
+                    <span className="font-[family-name:var(--font-b2-thin)] text-b2-light/30">
+                      DRIVEN BY
+                    </span>
+                    <br />
+                    <span className="font-[family-name:var(--font-b2-black)] text-b2-light">
+                      VALUES
+                    </span>
+                  </motion.span>
+                </span>
 
-              {/* Tagline line 2 */}
-              <div className="overflow-hidden mt-3 md:mt-5">
-                <motion.div
-                  className="text-[clamp(2rem,7.5vw,6.5rem)] leading-[1.05] tracking-[-0.02em]"
-                  initial={{ y: '110%' }}
-                  animate={{ y: '0%' }}
-                  transition={{
-                    duration: 1,
-                    delay: T.taglineL2,
-                    ease: EASE_EXPO,
-                  }}
-                >
-                  <span className="font-[family-name:var(--font-b2-thin)] text-b2-light/30">
-                    POWERED BY
-                  </span>
-                  <br />
-                  <span className="font-[family-name:var(--font-b2-black)] text-b2-teal">
-                    INTELLECT
-                  </span>
-                </motion.div>
-              </div>
+                {/* Tagline line 2 */}
+                <span aria-hidden="true" className="block overflow-hidden mt-3 md:mt-5">
+                  <motion.span
+                    className="block text-[clamp(2rem,7.5vw,6.5rem)] leading-[1.05] tracking-[-0.02em]"
+                    initial={{ y: '110%' }}
+                    animate={{ y: '0%' }}
+                    transition={{
+                      duration: 1,
+                      delay: T.taglineL2,
+                      ease: EASE_EXPO,
+                    }}
+                  >
+                    <span className="font-[family-name:var(--font-b2-thin)] text-b2-light/30">
+                      POWERED BY
+                    </span>
+                    <br />
+                    <span className="font-[family-name:var(--font-b2-black)] text-b2-teal">
+                      INTELLECT
+                    </span>
+                  </motion.span>
+                </span>
+              </h1>
 
               {/* Accent rule under tagline */}
               <motion.div

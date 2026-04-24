@@ -1,8 +1,9 @@
 'use client'
 
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Reveal } from './reveal'
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Playback() {
@@ -35,15 +36,26 @@ export default function Playback() {
             </Reveal>
 
             <Reveal delay={0.3}>
-              <a href="https://www.playbacksports.ai" target="_blank" rel="noopener noreferrer">
-                <Button
-                  variant="outline"
-                  className="border-b2-teal/30 text-b2-teal hover:bg-b2-teal hover:text-b2-black tracking-wider uppercase text-xs gap-2"
-                >
-                  Visit playbacksports.ai
-                  <ExternalLink className="w-3 h-3" />
-                </Button>
-              </a>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/playback">
+                  <Button
+                    variant="outline"
+                    className="border-b2-teal/30 text-b2-teal hover:bg-b2-teal hover:text-b2-black tracking-wider uppercase text-xs gap-2"
+                  >
+                    More on PLAYBACK
+                    <ArrowRight className="w-3 h-3" />
+                  </Button>
+                </Link>
+                <a href="https://www.playbacksports.ai" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    className="border-white/10 text-b2-muted hover:bg-white/5 hover:text-b2-light tracking-wider uppercase text-xs gap-2"
+                  >
+                    Visit playbacksports.ai
+                    <ExternalLink className="w-3 h-3" />
+                  </Button>
+                </a>
+              </div>
             </Reveal>
           </div>
 

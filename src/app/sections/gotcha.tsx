@@ -1,9 +1,10 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Reveal } from './reveal'
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, ArrowRight } from 'lucide-react'
 import { Gotcha as GotchaWidget, GotchaScore } from 'gotcha-feedback'
 
 const MODES = ['Feedback', 'Vote', 'Poll', 'NPS', 'Bug reports']
@@ -68,25 +69,21 @@ export default function Gotcha() {
 
             <Reveal delay={0.4}>
               <div className="flex flex-wrap gap-3">
-                <a href="https://gotcha.cx" target="_blank" rel="noopener noreferrer">
+                <Link href="/gotcha">
                   <Button
                     variant="outline"
                     className="border-b2-teal/30 text-b2-teal hover:bg-b2-teal hover:text-b2-black tracking-wider uppercase text-xs gap-2"
                   >
-                    Visit gotcha.cx
-                    <ExternalLink className="w-3 h-3" />
+                    More on Gotcha
+                    <ArrowRight className="w-3 h-3" />
                   </Button>
-                </a>
-                <a
-                  href="https://gotcha.cx/roadmap/gotcha"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                </Link>
+                <a href="https://gotcha.cx" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
                     className="border-white/10 text-b2-muted hover:bg-white/5 hover:text-b2-light tracking-wider uppercase text-xs gap-2"
                   >
-                    See the roadmap
+                    Visit gotcha.cx
                     <ExternalLink className="w-3 h-3" />
                   </Button>
                 </a>

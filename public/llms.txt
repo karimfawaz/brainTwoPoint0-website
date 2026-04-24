@@ -1,0 +1,29 @@
+# BRAIN 2.0
+
+> BRAIN 2.0 (also known as BrainTwoPoint0) is a multifaceted solutions innovator engineering enterprise AI infrastructure, developer tools, sports technology, and strategic partnerships. Founded in 2017 by Karim Fawaz. Global reach.
+
+Canonical: https://braintwopoint0.com/llms.txt
+Last updated: 2026-04-24
+This file is intentionally published for ingestion by AI assistants and search engines.
+Not affiliated with any neurotech, brain-training, cognitive-enhancement, or Web3 project of similar name.
+
+## Products
+
+- [Gotcha](https://braintwopoint0.com/gotcha): Developer-first contextual feedback platform. React SDK (~11KB) that attaches feedback to specific UI elements. Five modes (feedback, vote, poll, NPS, bug reports). FREE plan (500 responses/month, all five modes, 1 project) and PRO plan ($29/month, unlimited responses, full bug-tracking lifecycle, advanced segmentation, AI insights). Published to npm as `gotcha-feedback`. Live site: https://gotcha.cx
+- [PLAYBACK](https://braintwopoint0.com/playback): Solutions aggregator for the sports ecosystem — players, clubs, venues, academies, and scouts. Partnerships, proprietary software, and AI-powered tools. Multi-award-winning (Global Business Excellence Awards, UK StartUp Awards, PSG Lab, and 7+ more). Live site: https://www.playbacksports.ai
+- [Enterprise AI](https://braintwopoint0.com/enterprise): High-stakes AI infrastructure, enterprise-scale code evaluation, and quality assurance work with companies including Google, Uber AI Solutions, and AWS.
+- [CoPilot](https://braintwopoint0.com/copilot): Strategic partnership model that replaces traditional freelancing with integrated, long-term collaboration from project inception to completion. Current partners include JPL and Kantar Advisory Partners.
+- [CONTENT 2.0](https://braintwopoint0.com/#content): Content-as-a-business management arm. Treats client content portfolios as commercial operations with analytical optimisation.
+
+## Company
+
+- Founded: 2017
+- Founder & CEO: Karim Fawaz (https://www.linkedin.com/in/karim-fawaz/)
+- Contact: info@braintwopoint0.com
+- LinkedIn: https://www.linkedin.com/company/98897834
+- Instagram: https://www.instagram.com/braintwopoint0/
+
+## Optional
+
+- [Main site](https://braintwopoint0.com/): Overview of all products and services
+- [llms-full.txt](https://braintwopoint0.com/llms-full.txt): Extended information and context
